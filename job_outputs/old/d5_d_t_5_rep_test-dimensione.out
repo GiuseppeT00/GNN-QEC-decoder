@@ -1,0 +1,890 @@
+
+==== DECODER PARAMETERS ====
+Moving model to cuda... Done.
+130.97553510399996GB of RAM available.
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/', 'save_prefix': 'd5_d_t_5_rep_id2019576', 'resumed_training_file_name': None}
+Code size: 5
+
+Repetitions: 5
+
+Training error rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 300 iteration(s).
+Buffer has 50000 samples, replacing 10000 samples with each iteration.
+Total number of unique samples in this run: 3.05e+06
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 576602, obs 576602
+-> Stim data & Observable flips size: 5189528 + 5189528 bytes ## Quindi 1 elemento di ciascuna lista occupa 5.19mb
+fine while
+Lunghezza stim data 576602, obs 576602
+-> Iteration of "For sampler in samplers" ended... 130.64271871999995GB of RAM available.
+Lunghezza stim data 656865, obs 656865
+-> Stim data & Observable flips size: 5911896 + 5911896 bytes
+fine while
+Lunghezza stim data 656865, obs 656865
+-> Iteration of "For sampler in samplers" ended... 130.54462361599997GB of RAM available.
+Lunghezza stim data 554186, obs 554186
+-> Stim data & Observable flips size: 4987784 + 4987784 bytes
+fine while
+Lunghezza stim data 554186, obs 554186
+-> Iteration of "For sampler in samplers" ended... 130.51465728000005GB of RAM available.
+Lunghezza stim data 387141, obs 387141
+-> Stim data & Observable flips size: 3484376 + 3484376 bytes
+fine while
+Lunghezza stim data 387141, obs 387141
+-> Iteration of "For sampler in samplers" ended... 130.498777088GB of RAM available.
+Lunghezza stim data 197309, obs 197309
+-> Stim data & Observable flips size: 1775888 + 1775888 bytes
+fine while
+Lunghezza stim data 197309, obs 197309
+-> Iteration of "For sampler in samplers" ended... 130.568081408GB of RAM available.
+---> "For sampler in samplers" finished... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.568081408GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 130.56782745600003GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 130.56782745600003GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 129.68534016GB of RAM available.
+129.712140288GB of RAM available.
+129.66973030400004GB of RAM available.
+129.65924864GB of RAM available.
+129.46016665599996GB of RAM available.
+129.48806041600005GB of RAM available.
+129.34651084799998GB of RAM available.
+129.281458176GB of RAM available.
+129.22935296000003GB of RAM available.
+129.20688640000003GB of RAM available.
+129.14481151999996GB of RAM available.
+129.09500416000003GB of RAM available.
+129.01394431999995GB of RAM available.
+129.08814336GB of RAM available.
+128.93881139200005GB of RAM available.
+128.92373811200002GB of RAM available.
+128.92685107199998GB of RAM available.
+128.81408819199999GB of RAM available.
+128.73921740799994GB of RAM available.
+128.724402176GB of RAM available.
+***** New training iteration:  130.29604556799995GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57622, obs 57622
+-> Stim data & Observable flips size: 518704 + 518704 bytes
+fine while
+Lunghezza stim data 57622, obs 57622
+-> Iteration of "For sampler in samplers" ended... 129.68939520000004GB of RAM available.
+Lunghezza stim data 65605, obs 65605
+-> Stim data & Observable flips size: 590552 + 590552 bytes
+fine while
+Lunghezza stim data 65605, obs 65605
+-> Iteration of "For sampler in samplers" ended... 129.679740928GB of RAM available.
+Lunghezza stim data 55461, obs 55461
+-> Stim data & Observable flips size: 499256 + 499256 bytes
+fine while
+Lunghezza stim data 55461, obs 55461
+-> Iteration of "For sampler in samplers" ended... 129.67256473600003GB of RAM available.
+Lunghezza stim data 38736, obs 38736
+-> Stim data & Observable flips size: 348736 + 348736 bytes
+fine while
+Lunghezza stim data 38736, obs 38736
+-> Iteration of "For sampler in samplers" ended... 129.66780108800003GB of RAM available.
+Lunghezza stim data 19711, obs 19711
+-> Stim data & Observable flips size: 177504 + 177504 bytes
+fine while
+Lunghezza stim data 19711, obs 19711
+-> Iteration of "For sampler in samplers" ended... 129.66781747200002GB of RAM available.
+---> "For sampler in samplers" finished... 129.66781747200002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.66781747200002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.66781747200002GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.66781747200002GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 128.05416960000002GB of RAM available.
+128.04121395200002GB of RAM available.
+Iteration: 001	Loss: 1.8802	Acc: 0.7984	Validation Acc: 0.8291	Validation Loss: 0.5262Cumulative # of training samples: 5.00e+04
+***** New training iteration:  129.62636595200001GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57933, obs 57933
+-> Stim data & Observable flips size: 521504 + 521504 bytes
+fine while
+Lunghezza stim data 57933, obs 57933
+-> Iteration of "For sampler in samplers" ended... 129.63619635199996GB of RAM available.
+Lunghezza stim data 65572, obs 65572
+-> Stim data & Observable flips size: 590256 + 590256 bytes
+fine while
+Lunghezza stim data 65572, obs 65572
+-> Iteration of "For sampler in samplers" ended... 129.63631104GB of RAM available.
+Lunghezza stim data 55439, obs 55439
+-> Stim data & Observable flips size: 499056 + 499056 bytes
+fine while
+Lunghezza stim data 55439, obs 55439
+-> Iteration of "For sampler in samplers" ended... 129.63631104GB of RAM available.
+Lunghezza stim data 38721, obs 38721
+-> Stim data & Observable flips size: 348600 + 348600 bytes
+fine while
+Lunghezza stim data 38721, obs 38721
+-> Iteration of "For sampler in samplers" ended... 129.63631104GB of RAM available.
+Lunghezza stim data 19714, obs 19714
+-> Stim data & Observable flips size: 177536 + 177536 bytes
+fine while
+Lunghezza stim data 19714, obs 19714
+-> Iteration of "For sampler in samplers" ended... 129.63631104GB of RAM available.
+---> "For sampler in samplers" finished... 129.63631104GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.63631104GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.63631104GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.63631104GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.81427507199999GB of RAM available.
+***** New training iteration:  129.601552384GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57730, obs 57730
+-> Stim data & Observable flips size: 519680 + 519680 bytes
+fine while
+Lunghezza stim data 57730, obs 57730
+-> Iteration of "For sampler in samplers" ended... 129.61108787199998GB of RAM available.
+Lunghezza stim data 65678, obs 65678
+-> Stim data & Observable flips size: 591208 + 591208 bytes
+fine while
+Lunghezza stim data 65678, obs 65678
+-> Iteration of "For sampler in samplers" ended... 129.61112063999997GB of RAM available.
+Lunghezza stim data 55517, obs 55517
+-> Stim data & Observable flips size: 499760 + 499760 bytes
+fine while
+Lunghezza stim data 55517, obs 55517
+-> Iteration of "For sampler in samplers" ended... 129.61112063999997GB of RAM available.
+Lunghezza stim data 38811, obs 38811
+-> Stim data & Observable flips size: 349408 + 349408 bytes
+fine while
+Lunghezza stim data 38811, obs 38811
+-> Iteration of "For sampler in samplers" ended... 129.61112063999997GB of RAM available.
+Lunghezza stim data 19704, obs 19704
+-> Stim data & Observable flips size: 177448 + 177448 bytes
+fine while
+Lunghezza stim data 19704, obs 19704
+-> Iteration of "For sampler in samplers" ended... 129.61112063999997GB of RAM available.
+---> "For sampler in samplers" finished... 129.61112063999997GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.61112063999997GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.61112063999997GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.61112063999997GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.77822617599998GB of RAM available.
+127.751933952GB of RAM available.
+Iteration: 003	Loss: 0.4730	Acc: 0.8305	Validation Acc: 0.8423	Validation Loss: 0.4317Cumulative # of training samples: 1.50e+05
+***** New training iteration:  129.58975999999996GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57764, obs 57764
+-> Stim data & Observable flips size: 519984 + 519984 bytes
+fine while
+Lunghezza stim data 57764, obs 57764
+-> Iteration of "For sampler in samplers" ended... 129.59910297600004GB of RAM available.
+Lunghezza stim data 65644, obs 65644
+-> Stim data & Observable flips size: 590904 + 590904 bytes
+fine while
+Lunghezza stim data 65644, obs 65644
+-> Iteration of "For sampler in samplers" ended... 129.59910297600004GB of RAM available.
+Lunghezza stim data 55479, obs 55479
+-> Stim data & Observable flips size: 499416 + 499416 bytes
+fine while
+Lunghezza stim data 55479, obs 55479
+-> Iteration of "For sampler in samplers" ended... 129.59910297600004GB of RAM available.
+Lunghezza stim data 38749, obs 38749
+-> Stim data & Observable flips size: 348848 + 348848 bytes
+fine while
+Lunghezza stim data 38749, obs 38749
+-> Iteration of "For sampler in samplers" ended... 129.59910297600004GB of RAM available.
+Lunghezza stim data 19707, obs 19707
+-> Stim data & Observable flips size: 177472 + 177472 bytes
+fine while
+Lunghezza stim data 19707, obs 19707
+-> Iteration of "For sampler in samplers" ended... 129.59910297600004GB of RAM available.
+---> "For sampler in samplers" finished... 129.59910297600004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59910297600004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59910297600004GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59910297600004GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.58457958399998GB of RAM available.
+127.581405184GB of RAM available.
+***** New training iteration:  129.59950028799994GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57895, obs 57895
+-> Stim data & Observable flips size: 521160 + 521160 bytes
+fine while
+Lunghezza stim data 57895, obs 57895
+-> Iteration of "For sampler in samplers" ended... 129.608925184GB of RAM available.
+Lunghezza stim data 65667, obs 65667
+-> Stim data & Observable flips size: 591112 + 591112 bytes
+fine while
+Lunghezza stim data 65667, obs 65667
+-> Iteration of "For sampler in samplers" ended... 129.608925184GB of RAM available.
+Lunghezza stim data 55373, obs 55373
+-> Stim data & Observable flips size: 498464 + 498464 bytes
+fine while
+Lunghezza stim data 55373, obs 55373
+-> Iteration of "For sampler in samplers" ended... 129.608925184GB of RAM available.
+Lunghezza stim data 38657, obs 38657
+-> Stim data & Observable flips size: 348024 + 348024 bytes
+fine while
+Lunghezza stim data 38657, obs 38657
+-> Iteration of "For sampler in samplers" ended... 129.608925184GB of RAM available.
+Lunghezza stim data 19741, obs 19741
+-> Stim data & Observable flips size: 177776 + 177776 bytes
+fine while
+Lunghezza stim data 19741, obs 19741
+-> Iteration of "For sampler in samplers" ended... 129.608925184GB of RAM available.
+---> "For sampler in samplers" finished... 129.608925184GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.608925184GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.608925184GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.608925184GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.56307967999999GB of RAM available.
+***** New training iteration:  129.60045056GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57578, obs 57578
+-> Stim data & Observable flips size: 518312 + 518312 bytes
+fine while
+Lunghezza stim data 57578, obs 57578
+-> Iteration of "For sampler in samplers" ended... 129.59471615999996GB of RAM available.
+Lunghezza stim data 65638, obs 65638
+-> Stim data & Observable flips size: 590848 + 590848 bytes
+fine while
+Lunghezza stim data 65638, obs 65638
+-> Iteration of "For sampler in samplers" ended... 129.59422464GB of RAM available.
+Lunghezza stim data 55513, obs 55513
+-> Stim data & Observable flips size: 499728 + 499728 bytes
+fine while
+Lunghezza stim data 55513, obs 55513
+-> Iteration of "For sampler in samplers" ended... 129.59818956799995GB of RAM available.
+Lunghezza stim data 38772, obs 38772
+-> Stim data & Observable flips size: 349056 + 349056 bytes
+fine while
+Lunghezza stim data 38772, obs 38772
+-> Iteration of "For sampler in samplers" ended... 129.596157952GB of RAM available.
+Lunghezza stim data 19689, obs 19689
+-> Stim data & Observable flips size: 177312 + 177312 bytes
+fine while
+Lunghezza stim data 19689, obs 19689
+-> Iteration of "For sampler in samplers" ended... 129.59691161600006GB of RAM available.
+---> "For sampler in samplers" finished... 129.59691161600006GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59691161600006GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59691161600006GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59691161600006GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.46993664000001GB of RAM available.
+127.42866944000002GB of RAM available.
+Iteration: 006	Loss: 0.3956	Acc: 0.8426	Validation Acc: 0.8482	Validation Loss: 0.4078Cumulative # of training samples: 3.00e+05
+***** New training iteration:  129.59945932799997GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57778, obs 57778
+-> Stim data & Observable flips size: 520112 + 520112 bytes
+fine while
+Lunghezza stim data 57778, obs 57778
+-> Iteration of "For sampler in samplers" ended... 129.59955763200003GB of RAM available.
+Lunghezza stim data 65571, obs 65571
+-> Stim data & Observable flips size: 590248 + 590248 bytes
+fine while
+Lunghezza stim data 65571, obs 65571
+-> Iteration of "For sampler in samplers" ended... 129.59955763200003GB of RAM available.
+Lunghezza stim data 55447, obs 55447
+-> Stim data & Observable flips size: 499128 + 499128 bytes
+fine while
+Lunghezza stim data 55447, obs 55447
+-> Iteration of "For sampler in samplers" ended... 129.59955763200003GB of RAM available.
+Lunghezza stim data 38761, obs 38761
+-> Stim data & Observable flips size: 348960 + 348960 bytes
+fine while
+Lunghezza stim data 38761, obs 38761
+-> Iteration of "For sampler in samplers" ended... 129.59952486400005GB of RAM available.
+Lunghezza stim data 19726, obs 19726
+-> Stim data & Observable flips size: 177640 + 177640 bytes
+fine while
+Lunghezza stim data 19726, obs 19726
+-> Iteration of "For sampler in samplers" ended... 129.59952486400005GB of RAM available.
+---> "For sampler in samplers" finished... 129.59952486400005GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59952486400005GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59952486400005GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59952486400005GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.648370688GB of RAM available.
+***** New training iteration:  129.59884902399995GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57859, obs 57859
+-> Stim data & Observable flips size: 520840 + 520840 bytes
+fine while
+Lunghezza stim data 57859, obs 57859
+-> Iteration of "For sampler in samplers" ended... 129.598988288GB of RAM available.
+Lunghezza stim data 65580, obs 65580
+-> Stim data & Observable flips size: 590328 + 590328 bytes
+fine while
+Lunghezza stim data 65580, obs 65580
+-> Iteration of "For sampler in samplers" ended... 129.598988288GB of RAM available.
+Lunghezza stim data 55480, obs 55480
+-> Stim data & Observable flips size: 499432 + 499432 bytes
+fine while
+Lunghezza stim data 55480, obs 55480
+-> Iteration of "For sampler in samplers" ended... 129.598988288GB of RAM available.
+Lunghezza stim data 38654, obs 38654
+-> Stim data & Observable flips size: 347992 + 347992 bytes
+fine while
+Lunghezza stim data 38654, obs 38654
+-> Iteration of "For sampler in samplers" ended... 129.598988288GB of RAM available.
+Lunghezza stim data 19715, obs 19715
+-> Stim data & Observable flips size: 177544 + 177544 bytes
+fine while
+Lunghezza stim data 19715, obs 19715
+-> Iteration of "For sampler in samplers" ended... 129.598988288GB of RAM available.
+---> "For sampler in samplers" finished... 129.598988288GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.598988288GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.598988288GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.598988288GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.64162047999997GB of RAM available.
+127.63908096GB of RAM available.
+***** New training iteration:  129.59935283200002GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57847, obs 57847
+-> Stim data & Observable flips size: 520728 + 520728 bytes
+fine while
+Lunghezza stim data 57847, obs 57847
+-> Iteration of "For sampler in samplers" ended... 129.59935283200002GB of RAM available.
+Lunghezza stim data 65635, obs 65635
+-> Stim data & Observable flips size: 590824 + 590824 bytes
+fine while
+Lunghezza stim data 65635, obs 65635
+-> Iteration of "For sampler in samplers" ended... 129.59935283200002GB of RAM available.
+Lunghezza stim data 55501, obs 55501
+-> Stim data & Observable flips size: 499616 + 499616 bytes
+fine while
+Lunghezza stim data 55501, obs 55501
+-> Iteration of "For sampler in samplers" ended... 129.59935283200002GB of RAM available.
+Lunghezza stim data 38663, obs 38663
+-> Stim data & Observable flips size: 348072 + 348072 bytes
+fine while
+Lunghezza stim data 38663, obs 38663
+-> Iteration of "For sampler in samplers" ended... 129.59935283200002GB of RAM available.
+Lunghezza stim data 19757, obs 19757
+-> Stim data & Observable flips size: 177920 + 177920 bytes
+fine while
+Lunghezza stim data 19757, obs 19757
+-> Iteration of "For sampler in samplers" ended... 129.59935283200002GB of RAM available.
+---> "For sampler in samplers" finished... 129.59935283200002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59935283200002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59935283200002GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59935283200002GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.54407833599998GB of RAM available.
+Iteration: 009	Loss: 0.3578	Acc: 0.8542	Validation Acc: 0.8405	Validation Loss: 0.3794Cumulative # of training samples: 4.50e+05
+***** New training iteration:  129.59408127999995GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57725, obs 57725
+-> Stim data & Observable flips size: 519632 + 519632 bytes
+fine while
+Lunghezza stim data 57725, obs 57725
+-> Iteration of "For sampler in samplers" ended... 129.60643891200004GB of RAM available.
+Lunghezza stim data 65429, obs 65429
+-> Stim data & Observable flips size: 588968 + 588968 bytes
+fine while
+Lunghezza stim data 65429, obs 65429
+-> Iteration of "For sampler in samplers" ended... 129.60643891200004GB of RAM available.
+Lunghezza stim data 55482, obs 55482
+-> Stim data & Observable flips size: 499448 + 499448 bytes
+fine while
+Lunghezza stim data 55482, obs 55482
+-> Iteration of "For sampler in samplers" ended... 129.604788224GB of RAM available.
+Lunghezza stim data 38749, obs 38749
+-> Stim data & Observable flips size: 348848 + 348848 bytes
+fine while
+Lunghezza stim data 38749, obs 38749
+-> Iteration of "For sampler in samplers" ended... 129.604788224GB of RAM available.
+Lunghezza stim data 19751, obs 19751
+-> Stim data & Observable flips size: 177864 + 177864 bytes
+fine while
+Lunghezza stim data 19751, obs 19751
+-> Iteration of "For sampler in samplers" ended... 129.604788224GB of RAM available.
+---> "For sampler in samplers" finished... 129.604788224GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.604788224GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.604788224GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.604788224GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.47170611199999GB of RAM available.
+127.46853171200001GB of RAM available.
+***** New training iteration:  129.60108134400002GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57777, obs 57777
+-> Stim data & Observable flips size: 520104 + 520104 bytes
+fine while
+Lunghezza stim data 57777, obs 57777
+-> Iteration of "For sampler in samplers" ended... 129.60087654400002GB of RAM available.
+Lunghezza stim data 65578, obs 65578
+-> Stim data & Observable flips size: 590312 + 590312 bytes
+fine while
+Lunghezza stim data 65578, obs 65578
+-> Iteration of "For sampler in samplers" ended... 129.60087654400002GB of RAM available.
+Lunghezza stim data 55454, obs 55454
+-> Stim data & Observable flips size: 499192 + 499192 bytes
+fine while
+Lunghezza stim data 55454, obs 55454
+-> Iteration of "For sampler in samplers" ended... 129.60087654400002GB of RAM available.
+Lunghezza stim data 38673, obs 38673
+-> Stim data & Observable flips size: 348168 + 348168 bytes
+fine while
+Lunghezza stim data 38673, obs 38673
+-> Iteration of "For sampler in samplers" ended... 129.60087654400002GB of RAM available.
+Lunghezza stim data 19698, obs 19698
+-> Stim data & Observable flips size: 177392 + 177392 bytes
+fine while
+Lunghezza stim data 19698, obs 19698
+-> Iteration of "For sampler in samplers" ended... 129.60087654400002GB of RAM available.
+---> "For sampler in samplers" finished... 129.60087654400002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.60087654400002GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.60087654400002GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.60087654400002GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.63924889600003GB of RAM available.
+***** New training iteration:  129.600929792GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57547, obs 57547
+-> Stim data & Observable flips size: 518032 + 518032 bytes
+fine while
+Lunghezza stim data 57547, obs 57547
+-> Iteration of "For sampler in samplers" ended... 129.60095027199998GB of RAM available.
+Lunghezza stim data 65548, obs 65548
+-> Stim data & Observable flips size: 590040 + 590040 bytes
+fine while
+Lunghezza stim data 65548, obs 65548
+-> Iteration of "For sampler in samplers" ended... 129.60095027199998GB of RAM available.
+Lunghezza stim data 55470, obs 55470
+-> Stim data & Observable flips size: 499336 + 499336 bytes
+fine while
+Lunghezza stim data 55470, obs 55470
+-> Iteration of "For sampler in samplers" ended... 129.60095027199998GB of RAM available.
+Lunghezza stim data 38769, obs 38769
+-> Stim data & Observable flips size: 349032 + 349032 bytes
+fine while
+Lunghezza stim data 38769, obs 38769
+-> Iteration of "For sampler in samplers" ended... 129.60095027199998GB of RAM available.
+Lunghezza stim data 19739, obs 19739
+-> Stim data & Observable flips size: 177760 + 177760 bytes
+fine while
+Lunghezza stim data 19739, obs 19739
+-> Iteration of "For sampler in samplers" ended... 129.60095027199998GB of RAM available.
+---> "For sampler in samplers" finished... 129.60095027199998GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.60095027199998GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.60095027199998GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.60095027199998GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.65017292800002GB of RAM available.
+127.61599999999999GB of RAM available.
+Iteration: 012	Loss: 0.3466	Acc: 0.8639	Validation Acc: 0.8696	Validation Loss: 0.3222Cumulative # of training samples: 6.00e+05
+***** New training iteration:  129.60028671999999GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57596, obs 57596
+-> Stim data & Observable flips size: 518472 + 518472 bytes
+fine while
+Lunghezza stim data 57596, obs 57596
+-> Iteration of "For sampler in samplers" ended... 129.60031129599997GB of RAM available.
+Lunghezza stim data 65712, obs 65712
+-> Stim data & Observable flips size: 591520 + 591520 bytes
+fine while
+Lunghezza stim data 65712, obs 65712
+-> Iteration of "For sampler in samplers" ended... 129.59967641599997GB of RAM available.
+Lunghezza stim data 55501, obs 55501
+-> Stim data & Observable flips size: 499616 + 499616 bytes
+fine while
+Lunghezza stim data 55501, obs 55501
+-> Iteration of "For sampler in samplers" ended... 129.59257804799995GB of RAM available.
+Lunghezza stim data 38761, obs 38761
+-> Stim data & Observable flips size: 348960 + 348960 bytes
+fine while
+Lunghezza stim data 38761, obs 38761
+-> Iteration of "For sampler in samplers" ended... 129.59257804799995GB of RAM available.
+Lunghezza stim data 19724, obs 19724
+-> Stim data & Observable flips size: 177624 + 177624 bytes
+fine while
+Lunghezza stim data 19724, obs 19724
+-> Iteration of "For sampler in samplers" ended... 129.59257804799995GB of RAM available.
+---> "For sampler in samplers" finished... 129.59257804799995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59257804799995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59257804799995GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59257804799995GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.52746086399998GB of RAM available.
+127.52746086399998GB of RAM available.
+***** New training iteration:  129.58597529600002GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57682, obs 57682
+-> Stim data & Observable flips size: 519248 + 519248 bytes
+fine while
+Lunghezza stim data 57682, obs 57682
+-> Iteration of "For sampler in samplers" ended... 129.58631526399995GB of RAM available.
+Lunghezza stim data 65587, obs 65587
+-> Stim data & Observable flips size: 590392 + 590392 bytes
+fine while
+Lunghezza stim data 65587, obs 65587
+-> Iteration of "For sampler in samplers" ended... 129.58631526399995GB of RAM available.
+Lunghezza stim data 55360, obs 55360
+-> Stim data & Observable flips size: 498352 + 498352 bytes
+fine while
+Lunghezza stim data 55360, obs 55360
+-> Iteration of "For sampler in samplers" ended... 129.58631526399995GB of RAM available.
+Lunghezza stim data 38764, obs 38764
+-> Stim data & Observable flips size: 348984 + 348984 bytes
+fine while
+Lunghezza stim data 38764, obs 38764
+-> Iteration of "For sampler in samplers" ended... 129.58631526399995GB of RAM available.
+Lunghezza stim data 19729, obs 19729
+-> Stim data & Observable flips size: 177672 + 177672 bytes
+fine while
+Lunghezza stim data 19729, obs 19729
+-> Iteration of "For sampler in samplers" ended... 129.58631526399995GB of RAM available.
+---> "For sampler in samplers" finished... 129.58631526399995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58631526399995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58631526399995GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58631526399995GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.63763097600003GB of RAM available.
+***** New training iteration:  129.58568038400006GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57697, obs 57697
+-> Stim data & Observable flips size: 519384 + 519384 bytes
+fine while
+Lunghezza stim data 57697, obs 57697
+-> Iteration of "For sampler in samplers" ended... 129.58962073600003GB of RAM available.
+Lunghezza stim data 65736, obs 65736
+-> Stim data & Observable flips size: 591736 + 591736 bytes
+fine while
+Lunghezza stim data 65736, obs 65736
+-> Iteration of "For sampler in samplers" ended... 129.58962073600003GB of RAM available.
+Lunghezza stim data 55507, obs 55507
+-> Stim data & Observable flips size: 499672 + 499672 bytes
+fine while
+Lunghezza stim data 55507, obs 55507
+-> Iteration of "For sampler in samplers" ended... 129.58962073600003GB of RAM available.
+Lunghezza stim data 38732, obs 38732
+-> Stim data & Observable flips size: 348696 + 348696 bytes
+fine while
+Lunghezza stim data 38732, obs 38732
+-> Iteration of "For sampler in samplers" ended... 129.58962073600003GB of RAM available.
+Lunghezza stim data 19729, obs 19729
+-> Stim data & Observable flips size: 177672 + 177672 bytes
+fine while
+Lunghezza stim data 19729, obs 19729
+-> Iteration of "For sampler in samplers" ended... 129.58962073600003GB of RAM available.
+---> "For sampler in samplers" finished... 129.58962073600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58962073600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58962073600003GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58962073600003GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.623094272GB of RAM available.
+127.63319091199998GB of RAM available.
+Iteration: 015	Loss: 0.3494	Acc: 0.8641	Validation Acc: 0.8559	Validation Loss: 0.3420Cumulative # of training samples: 7.50e+05
+***** New training iteration:  129.58566399999995GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 58005, obs 58005
+-> Stim data & Observable flips size: 522152 + 522152 bytes
+fine while
+Lunghezza stim data 58005, obs 58005
+-> Iteration of "For sampler in samplers" ended... 129.58571724800004GB of RAM available.
+Lunghezza stim data 65666, obs 65666
+-> Stim data & Observable flips size: 591104 + 591104 bytes
+fine while
+Lunghezza stim data 65666, obs 65666
+-> Iteration of "For sampler in samplers" ended... 129.58571724800004GB of RAM available.
+Lunghezza stim data 55348, obs 55348
+-> Stim data & Observable flips size: 498240 + 498240 bytes
+fine while
+Lunghezza stim data 55348, obs 55348
+-> Iteration of "For sampler in samplers" ended... 129.58571724800004GB of RAM available.
+Lunghezza stim data 38732, obs 38732
+-> Stim data & Observable flips size: 348696 + 348696 bytes
+fine while
+Lunghezza stim data 38732, obs 38732
+-> Iteration of "For sampler in samplers" ended... 129.58571724800004GB of RAM available.
+Lunghezza stim data 19733, obs 19733
+-> Stim data & Observable flips size: 177704 + 177704 bytes
+fine while
+Lunghezza stim data 19733, obs 19733
+-> Iteration of "For sampler in samplers" ended... 129.58571724800004GB of RAM available.
+---> "For sampler in samplers" finished... 129.58571724800004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58571724800004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58571724800004GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58571724800004GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.57755494399998GB of RAM available.
+***** New training iteration:  129.58547968000005GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57424, obs 57424
+-> Stim data & Observable flips size: 516928 + 516928 bytes
+fine while
+Lunghezza stim data 57424, obs 57424
+-> Iteration of "For sampler in samplers" ended... 129.58240358399996GB of RAM available.
+Lunghezza stim data 65645, obs 65645
+-> Stim data & Observable flips size: 590912 + 590912 bytes
+fine while
+Lunghezza stim data 65645, obs 65645
+-> Iteration of "For sampler in samplers" ended... 129.58181376000005GB of RAM available.
+Lunghezza stim data 55398, obs 55398
+-> Stim data & Observable flips size: 498688 + 498688 bytes
+fine while
+Lunghezza stim data 55398, obs 55398
+-> Iteration of "For sampler in samplers" ended... 129.586663424GB of RAM available.
+Lunghezza stim data 38674, obs 38674
+-> Stim data & Observable flips size: 348176 + 348176 bytes
+fine while
+Lunghezza stim data 38674, obs 38674
+-> Iteration of "For sampler in samplers" ended... 129.58002790399996GB of RAM available.
+Lunghezza stim data 19746, obs 19746
+-> Stim data & Observable flips size: 177824 + 177824 bytes
+fine while
+Lunghezza stim data 19746, obs 19746
+-> Iteration of "For sampler in samplers" ended... 129.58032281600003GB of RAM available.
+---> "For sampler in samplers" finished... 129.58032281600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58032281600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58032281600003GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58032281600003GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.62525696GB of RAM available.
+127.58614835200001GB of RAM available.
+***** New training iteration:  129.586446336GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57675, obs 57675
+-> Stim data & Observable flips size: 519184 + 519184 bytes
+fine while
+Lunghezza stim data 57675, obs 57675
+-> Iteration of "For sampler in samplers" ended... 129.58652825599995GB of RAM available.
+Lunghezza stim data 65586, obs 65586
+-> Stim data & Observable flips size: 590384 + 590384 bytes
+fine while
+Lunghezza stim data 65586, obs 65586
+-> Iteration of "For sampler in samplers" ended... 129.58652825599995GB of RAM available.
+Lunghezza stim data 55387, obs 55387
+-> Stim data & Observable flips size: 498592 + 498592 bytes
+fine while
+Lunghezza stim data 55387, obs 55387
+-> Iteration of "For sampler in samplers" ended... 129.58652825599995GB of RAM available.
+Lunghezza stim data 38734, obs 38734
+-> Stim data & Observable flips size: 348712 + 348712 bytes
+fine while
+Lunghezza stim data 38734, obs 38734
+-> Iteration of "For sampler in samplers" ended... 129.58652825599995GB of RAM available.
+Lunghezza stim data 19745, obs 19745
+-> Stim data & Observable flips size: 177816 + 177816 bytes
+fine while
+Lunghezza stim data 19745, obs 19745
+-> Iteration of "For sampler in samplers" ended... 129.58652825599995GB of RAM available.
+---> "For sampler in samplers" finished... 129.58652825599995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58652825599995GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58652825599995GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58652825599995GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.60350720000002GB of RAM available.
+127.53331814400002GB of RAM available.
+Iteration: 018	Loss: 0.3181	Acc: 0.8730	Validation Acc: 0.8744	Validation Loss: 0.3095Cumulative # of training samples: 9.00e+05
+***** New training iteration:  129.58615142400004GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57505, obs 57505
+-> Stim data & Observable flips size: 517656 + 517656 bytes
+fine while
+Lunghezza stim data 57505, obs 57505
+-> Iteration of "For sampler in samplers" ended... 129.58615961600003GB of RAM available.
+Lunghezza stim data 66025, obs 66025
+-> Stim data & Observable flips size: 594336 + 594336 bytes
+fine while
+Lunghezza stim data 66025, obs 66025
+-> Iteration of "For sampler in samplers" ended... 129.58615961600003GB of RAM available.
+Lunghezza stim data 55594, obs 55594
+-> Stim data & Observable flips size: 500456 + 500456 bytes
+fine while
+Lunghezza stim data 55594, obs 55594
+-> Iteration of "For sampler in samplers" ended... 129.58615961600003GB of RAM available.
+Lunghezza stim data 38722, obs 38722
+-> Stim data & Observable flips size: 348608 + 348608 bytes
+fine while
+Lunghezza stim data 38722, obs 38722
+-> Iteration of "For sampler in samplers" ended... 129.58615961600003GB of RAM available.
+Lunghezza stim data 19755, obs 19755
+-> Stim data & Observable flips size: 177904 + 177904 bytes
+fine while
+Lunghezza stim data 19755, obs 19755
+-> Iteration of "For sampler in samplers" ended... 129.58615961600003GB of RAM available.
+---> "For sampler in samplers" finished... 129.58615961600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58615961600003GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58615961600003GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58615961600003GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.52823910400002GB of RAM available.
+127.51871590399998GB of RAM available.
+***** New training iteration:  129.58596710400002GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57711, obs 57711
+-> Stim data & Observable flips size: 519504 + 519504 bytes
+fine while
+Lunghezza stim data 57711, obs 57711
+-> Iteration of "For sampler in samplers" ended... 129.59012864GB of RAM available.
+Lunghezza stim data 65774, obs 65774
+-> Stim data & Observable flips size: 592072 + 592072 bytes
+fine while
+Lunghezza stim data 65774, obs 65774
+-> Iteration of "For sampler in samplers" ended... 129.59012864GB of RAM available.
+Lunghezza stim data 55388, obs 55388
+-> Stim data & Observable flips size: 498600 + 498600 bytes
+fine while
+Lunghezza stim data 55388, obs 55388
+-> Iteration of "For sampler in samplers" ended... 129.59012864GB of RAM available.
+Lunghezza stim data 38723, obs 38723
+-> Stim data & Observable flips size: 348616 + 348616 bytes
+fine while
+Lunghezza stim data 38723, obs 38723
+-> Iteration of "For sampler in samplers" ended... 129.59012864GB of RAM available.
+Lunghezza stim data 19712, obs 19712
+-> Stim data & Observable flips size: 177520 + 177520 bytes
+fine while
+Lunghezza stim data 19712, obs 19712
+-> Iteration of "For sampler in samplers" ended... 129.59012864GB of RAM available.
+---> "For sampler in samplers" finished... 129.59012864GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59012864GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.59012864GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.59012864GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.51741747199998GB of RAM available.
+***** New training iteration:  129.57999513599998GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 58034, obs 58034
+-> Stim data & Observable flips size: 522416 + 522416 bytes
+fine while
+Lunghezza stim data 58034, obs 58034
+-> Iteration of "For sampler in samplers" ended... 129.58050304000005GB of RAM available.
+Lunghezza stim data 65864, obs 65864
+-> Stim data & Observable flips size: 592888 + 592888 bytes
+fine while
+Lunghezza stim data 65864, obs 65864
+-> Iteration of "For sampler in samplers" ended... 129.579978752GB of RAM available.
+Lunghezza stim data 55380, obs 55380
+-> Stim data & Observable flips size: 498528 + 498528 bytes
+fine while
+Lunghezza stim data 55380, obs 55380
+-> Iteration of "For sampler in samplers" ended... 129.58050304000005GB of RAM available.
+Lunghezza stim data 38680, obs 38680
+-> Stim data & Observable flips size: 348232 + 348232 bytes
+fine while
+Lunghezza stim data 38680, obs 38680
+-> Iteration of "For sampler in samplers" ended... 129.58094540800005GB of RAM available.
+Lunghezza stim data 19729, obs 19729
+-> Stim data & Observable flips size: 177672 + 177672 bytes
+fine while
+Lunghezza stim data 19729, obs 19729
+-> Iteration of "For sampler in samplers" ended... 129.58087987199997GB of RAM available.
+---> "For sampler in samplers" finished... 129.58087987199997GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58087987199997GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58087987199997GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58087987199997GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.62305740800002GB of RAM available.
+127.59269785599997GB of RAM available.
+Iteration: 021	Loss: 0.3096	Acc: 0.8737	Validation Acc: 0.8674	Validation Loss: 0.3194Cumulative # of training samples: 1.05e+06
+***** New training iteration:  129.58510694400002GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57906, obs 57906
+-> Stim data & Observable flips size: 521264 + 521264 bytes
+fine while
+Lunghezza stim data 57906, obs 57906
+-> Iteration of "For sampler in samplers" ended... 129.585123328GB of RAM available.
+Lunghezza stim data 65859, obs 65859
+-> Stim data & Observable flips size: 592840 + 592840 bytes
+fine while
+Lunghezza stim data 65859, obs 65859
+-> Iteration of "For sampler in samplers" ended... 129.585123328GB of RAM available.
+Lunghezza stim data 55404, obs 55404
+-> Stim data & Observable flips size: 498744 + 498744 bytes
+fine while
+Lunghezza stim data 55404, obs 55404
+-> Iteration of "For sampler in samplers" ended... 129.585123328GB of RAM available.
+Lunghezza stim data 38731, obs 38731
+-> Stim data & Observable flips size: 348688 + 348688 bytes
+fine while
+Lunghezza stim data 38731, obs 38731
+-> Iteration of "For sampler in samplers" ended... 129.585123328GB of RAM available.
+Lunghezza stim data 19731, obs 19731
+-> Stim data & Observable flips size: 177688 + 177688 bytes
+fine while
+Lunghezza stim data 19731, obs 19731
+-> Iteration of "For sampler in samplers" ended... 129.585123328GB of RAM available.
+---> "For sampler in samplers" finished... 129.585123328GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.585123328GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.585123328GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.585123328GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: ***** New training iteration:  129.584693248GB of RAM available.
+---> In generate buffer function...
+-> Samplers size: 128 bytes
+Lunghezza stim data 57686, obs 57686
+-> Stim data & Observable flips size: 519280 + 519280 bytes
+fine while
+Lunghezza stim data 57686, obs 57686
+-> Iteration of "For sampler in samplers" ended... 129.58470144GB of RAM available.
+Lunghezza stim data 65685, obs 65685
+-> Stim data & Observable flips size: 591272 + 591272 bytes
+fine while
+Lunghezza stim data 65685, obs 65685
+-> Iteration of "For sampler in samplers" ended... 129.58031872000004GB of RAM available.
+Lunghezza stim data 55491, obs 55491
+-> Stim data & Observable flips size: 499528 + 499528 bytes
+fine while
+Lunghezza stim data 55491, obs 55491
+-> Iteration of "For sampler in samplers" ended... 129.58031872000004GB of RAM available.
+Lunghezza stim data 38719, obs 38719
+-> Stim data & Observable flips size: 348576 + 348576 bytes
+fine while
+Lunghezza stim data 38719, obs 38719
+-> Iteration of "For sampler in samplers" ended... 129.58031872000004GB of RAM available.
+Lunghezza stim data 19752, obs 19752
+-> Stim data & Observable flips size: 177880 + 177880 bytes
+fine while
+Lunghezza stim data 19752, obs 19752
+-> Iteration of "For sampler in samplers" ended... 129.58031872000004GB of RAM available.
+---> "For sampler in samplers" finished... 129.58031872000004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58031872000004GB of RAM available.
+-> Iteration of "For i in range(buffer size)" ended... 129.58031872000004GB of RAM available.
+*** Number of CPUs available: 48
+*** RAM before creating batches in parallel: 129.58031872000004GB of RAM available.
+*** RAM after creating one batch in parallel by one specific CPU: *** RAM after creating one batch in parallel by one specific CPU: 127.58516121600002GB of RAM available.

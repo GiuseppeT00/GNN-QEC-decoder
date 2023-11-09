@@ -1,0 +1,10 @@
+*** CHUNK SIZE = 10^6 ***
+inizio lettura
+fine lettura. Tempo 0.021269559860229492s
+inizio composizione
+fine composizione. Tempo 683.8352842330933s
+*** CHUNK SIZE = 10^4 ***
+inizio lettura
+fine lettura. Tempo 0.0023293495178222656s
+inizio composizione
+fine composizione. Tempo 547.7170169353485s

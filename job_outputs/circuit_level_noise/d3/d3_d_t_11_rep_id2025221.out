@@ -1,0 +1,261 @@
+
+==== DECODER PARAMETERS ====
+Moving model to cuda... Done.
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/d3', 'save_prefix': 'd3_d_t_11_rep', 'resumed_training_file_name': None}
+Code size: 3
+
+Repetitions: 11
+
+Training error rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 100 iteration(s).
+Buffer has 5000000 samples, replacing 1250000 samples with each iteration.
+Total number of unique samples in this run: 1.30e+08
+Sampling with factor=0 ended in 111.9361846446991s. Conversion to Data object ended in 593.2907874584198s.
+******************************
+len(training_data)=5000000 ; len(validation_data)=50000
+******************************
+Sampling with factor=0 ended in 27.27491021156311s. Conversion to Data object ended in 145.762060880661s.
+Iteration: 001	Loss: 0.2650	Acc: 0.8906	Validation Acc: 0.9112	Validation Loss: 0.2077	Cumulative # of training samples: 5.00e+06	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch1
+Sampling with factor=0 ended in 27.564568042755127s. Conversion to Data object ended in 144.15912580490112s.
+Iteration: 002	Loss: 0.1840	Acc: 0.9221	Validation Acc: 0.9324	Validation Loss: 0.1596	Cumulative # of training samples: 1.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch2
+Sampling with factor=0 ended in 27.478342294692993s. Conversion to Data object ended in 142.53350472450256s.
+Iteration: 003	Loss: 0.1539	Acc: 0.9364	Validation Acc: 0.9390	Validation Loss: 0.1450	Cumulative # of training samples: 1.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch3
+Sampling with factor=0 ended in 27.513071060180664s. Conversion to Data object ended in 140.50046515464783s.
+Iteration: 004	Loss: 0.1377	Acc: 0.9441	Validation Acc: 0.9468	Validation Loss: 0.1310	Cumulative # of training samples: 2.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch4
+Sampling with factor=0 ended in 27.210572004318237s. Conversion to Data object ended in 140.516535282135s.
+Iteration: 005	Loss: 0.1289	Acc: 0.9484	Validation Acc: 0.9496	Validation Loss: 0.1246	Cumulative # of training samples: 2.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch5
+Sampling with factor=0 ended in 27.52562403678894s. Conversion to Data object ended in 141.06764936447144s.
+Iteration: 006	Loss: 0.1217	Acc: 0.9517	Validation Acc: 0.9535	Validation Loss: 0.1172	Cumulative # of training samples: 3.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch6
+Sampling with factor=0 ended in 27.53147268295288s. Conversion to Data object ended in 140.97594499588013s.
+Iteration: 007	Loss: 0.1162	Acc: 0.9543	Validation Acc: 0.9548	Validation Loss: 0.1125	Cumulative # of training samples: 3.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch7
+Sampling with factor=0 ended in 27.349376916885376s. Conversion to Data object ended in 141.42824935913086s.
+Iteration: 008	Loss: 0.1114	Acc: 0.9565	Validation Acc: 0.9572	Validation Loss: 0.1099	Cumulative # of training samples: 4.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch8
+Sampling with factor=0 ended in 27.208658695220947s. Conversion to Data object ended in 140.57808303833008s.
+Iteration: 009	Loss: 0.1071	Acc: 0.9586	Validation Acc: 0.9597	Validation Loss: 0.1035	Cumulative # of training samples: 4.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch9
+Sampling with factor=0 ended in 27.367347955703735s. Conversion to Data object ended in 141.53753852844238s.
+Iteration: 010	Loss: 0.1046	Acc: 0.9599	Validation Acc: 0.9606	Validation Loss: 0.1008	Cumulative # of training samples: 5.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch10
+Sampling with factor=0 ended in 27.51971673965454s. Conversion to Data object ended in 141.22858381271362s.
+Iteration: 011	Loss: 0.1013	Acc: 0.9613	Validation Acc: 0.9619	Validation Loss: 0.0986	Cumulative # of training samples: 5.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch11
+Sampling with factor=0 ended in 27.477075576782227s. Conversion to Data object ended in 141.05812549591064s.
+Iteration: 012	Loss: 0.0984	Acc: 0.9628	Validation Acc: 0.9638	Validation Loss: 0.0954	Cumulative # of training samples: 6.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch12
+Sampling with factor=0 ended in 27.228739261627197s. Conversion to Data object ended in 141.0118908882141s.
+Iteration: 013	Loss: 0.0962	Acc: 0.9639	Validation Acc: 0.9642	Validation Loss: 0.0941	Cumulative # of training samples: 6.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch13
+Sampling with factor=0 ended in 27.517656803131104s. Conversion to Data object ended in 140.60033249855042s.
+Iteration: 014	Loss: 0.0943	Acc: 0.9647	Validation Acc: 0.9649	Validation Loss: 0.0928	Cumulative # of training samples: 7.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch14
+Sampling with factor=0 ended in 27.330222129821777s. Conversion to Data object ended in 141.8498935699463s.
+Iteration: 015	Loss: 0.0927	Acc: 0.9655	Validation Acc: 0.9642	Validation Loss: 0.0921	Cumulative # of training samples: 7.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch15
+Sampling with factor=0 ended in 27.3865487575531s. Conversion to Data object ended in 141.61789774894714s.
+Iteration: 016	Loss: 0.0911	Acc: 0.9661	Validation Acc: 0.9658	Validation Loss: 0.0904	Cumulative # of training samples: 8.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch16
+Sampling with factor=0 ended in 27.25852870941162s. Conversion to Data object ended in 141.16143321990967s.
+Iteration: 017	Loss: 0.0898	Acc: 0.9668	Validation Acc: 0.9660	Validation Loss: 0.0899	Cumulative # of training samples: 8.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch17
+Sampling with factor=0 ended in 27.276710748672485s. Conversion to Data object ended in 141.0465681552887s.
+Iteration: 018	Loss: 0.0889	Acc: 0.9672	Validation Acc: 0.9672	Validation Loss: 0.0877	Cumulative # of training samples: 9.00e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch18
+Sampling with factor=0 ended in 27.505922079086304s. Conversion to Data object ended in 141.59307074546814s.
+Iteration: 019	Loss: 0.0877	Acc: 0.9676	Validation Acc: 0.9657	Validation Loss: 0.0945	Cumulative # of training samples: 9.50e+07	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch19
+Sampling with factor=0 ended in 27.327778100967407s. Conversion to Data object ended in 141.47123670578003s.
+Iteration: 020	Loss: 0.0867	Acc: 0.9681	Validation Acc: 0.9673	Validation Loss: 0.0870	Cumulative # of training samples: 1.00e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch20
+Sampling with factor=0 ended in 27.12564492225647s. Conversion to Data object ended in 141.56430673599243s.
+Iteration: 021	Loss: 0.0858	Acc: 0.9686	Validation Acc: 0.9684	Validation Loss: 0.0849	Cumulative # of training samples: 1.05e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch21
+Sampling with factor=0 ended in 27.424989461898804s. Conversion to Data object ended in 141.04612112045288s.
+Iteration: 022	Loss: 0.0852	Acc: 0.9688	Validation Acc: 0.9686	Validation Loss: 0.0838	Cumulative # of training samples: 1.10e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch22
+Sampling with factor=0 ended in 27.45934009552002s. Conversion to Data object ended in 141.4025948047638s.
+Iteration: 023	Loss: 0.0842	Acc: 0.9693	Validation Acc: 0.9696	Validation Loss: 0.0843	Cumulative # of training samples: 1.15e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch23
+Sampling with factor=0 ended in 27.38606548309326s. Conversion to Data object ended in 141.14868116378784s.
+Iteration: 024	Loss: 0.0835	Acc: 0.9696	Validation Acc: 0.9691	Validation Loss: 0.0839	Cumulative # of training samples: 1.20e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch24
+Sampling with factor=0 ended in 27.254465103149414s. Conversion to Data object ended in 140.32850003242493s.
+Iteration: 025	Loss: 0.0832	Acc: 0.9697	Validation Acc: 0.9700	Validation Loss: 0.0829	Cumulative # of training samples: 1.25e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch25
+Sampling with factor=0 ended in 27.784427881240845s. Conversion to Data object ended in 140.83496713638306s.
+Iteration: 026	Loss: 0.0824	Acc: 0.9701	Validation Acc: 0.9703	Validation Loss: 0.0814	Cumulative # of training samples: 1.30e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch26
+Sampling with factor=0 ended in 27.668386697769165s. Conversion to Data object ended in 141.35403680801392s.
+Iteration: 027	Loss: 0.0818	Acc: 0.9703	Validation Acc: 0.9661	Validation Loss: 0.0908	Cumulative # of training samples: 1.35e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch27
+Sampling with factor=0 ended in 27.569323778152466s. Conversion to Data object ended in 140.35574626922607s.
+Iteration: 028	Loss: 0.0815	Acc: 0.9705	Validation Acc: 0.9714	Validation Loss: 0.0801	Cumulative # of training samples: 1.40e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch28
+Sampling with factor=0 ended in 27.4621479511261s. Conversion to Data object ended in 140.95224857330322s.
+Iteration: 029	Loss: 0.0806	Acc: 0.9708	Validation Acc: 0.9711	Validation Loss: 0.0796	Cumulative # of training samples: 1.45e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch29
+Sampling with factor=0 ended in 27.46389365196228s. Conversion to Data object ended in 140.81179690361023s.
+Iteration: 030	Loss: 0.0800	Acc: 0.9711	Validation Acc: 0.9708	Validation Loss: 0.0800	Cumulative # of training samples: 1.50e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch30
+Sampling with factor=0 ended in 27.532722234725952s. Conversion to Data object ended in 141.40299677848816s.
+Iteration: 031	Loss: 0.0797	Acc: 0.9712	Validation Acc: 0.9702	Validation Loss: 0.0829	Cumulative # of training samples: 1.55e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch31
+Sampling with factor=0 ended in 27.485484838485718s. Conversion to Data object ended in 140.70222568511963s.
+Iteration: 032	Loss: 0.0790	Acc: 0.9716	Validation Acc: 0.9712	Validation Loss: 0.0789	Cumulative # of training samples: 1.60e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch32
+Sampling with factor=0 ended in 27.34268879890442s. Conversion to Data object ended in 140.5329201221466s.
+Iteration: 033	Loss: 0.0787	Acc: 0.9716	Validation Acc: 0.9721	Validation Loss: 0.0788	Cumulative # of training samples: 1.65e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch33
+Sampling with factor=0 ended in 27.528364896774292s. Conversion to Data object ended in 140.32585191726685s.
+Iteration: 034	Loss: 0.0784	Acc: 0.9719	Validation Acc: 0.9717	Validation Loss: 0.0783	Cumulative # of training samples: 1.70e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch34
+Sampling with factor=0 ended in 27.50614356994629s. Conversion to Data object ended in 141.5250108242035s.
+Iteration: 035	Loss: 0.0780	Acc: 0.9720	Validation Acc: 0.9713	Validation Loss: 0.0789	Cumulative # of training samples: 1.75e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch35
+Sampling with factor=0 ended in 27.590884923934937s. Conversion to Data object ended in 141.2457356452942s.
+Iteration: 036	Loss: 0.0775	Acc: 0.9722	Validation Acc: 0.9704	Validation Loss: 0.0803	Cumulative # of training samples: 1.80e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch36
+Sampling with factor=0 ended in 27.295435190200806s. Conversion to Data object ended in 140.31745266914368s.
+Iteration: 037	Loss: 0.0775	Acc: 0.9722	Validation Acc: 0.9718	Validation Loss: 0.0778	Cumulative # of training samples: 1.85e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch37
+Sampling with factor=0 ended in 27.409762859344482s. Conversion to Data object ended in 140.74636840820312s.
+Iteration: 038	Loss: 0.0766	Acc: 0.9726	Validation Acc: 0.9723	Validation Loss: 0.0772	Cumulative # of training samples: 1.90e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch38
+Sampling with factor=0 ended in 27.45634889602661s. Conversion to Data object ended in 140.85838317871094s.
+Iteration: 039	Loss: 0.0763	Acc: 0.9727	Validation Acc: 0.9722	Validation Loss: 0.0776	Cumulative # of training samples: 1.95e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch39
+Sampling with factor=0 ended in 27.48803949356079s. Conversion to Data object ended in 141.17525839805603s.
+Iteration: 040	Loss: 0.0760	Acc: 0.9729	Validation Acc: 0.9726	Validation Loss: 0.0765	Cumulative # of training samples: 2.00e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch40
+Sampling with factor=0 ended in 27.29914903640747s. Conversion to Data object ended in 140.77287554740906s.
+Iteration: 041	Loss: 0.0757	Acc: 0.9730	Validation Acc: 0.9723	Validation Loss: 0.0766	Cumulative # of training samples: 2.05e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch41
+Sampling with factor=0 ended in 27.578958988189697s. Conversion to Data object ended in 140.37962412834167s.
+Iteration: 042	Loss: 0.0755	Acc: 0.9730	Validation Acc: 0.9726	Validation Loss: 0.0759	Cumulative # of training samples: 2.10e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch42
+Sampling with factor=0 ended in 27.50681161880493s. Conversion to Data object ended in 141.47636008262634s.
+Iteration: 043	Loss: 0.0751	Acc: 0.9732	Validation Acc: 0.9720	Validation Loss: 0.0769	Cumulative # of training samples: 2.15e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch43
+Sampling with factor=0 ended in 27.50103235244751s. Conversion to Data object ended in 140.75861048698425s.
+Iteration: 044	Loss: 0.0749	Acc: 0.9733	Validation Acc: 0.9727	Validation Loss: 0.0765	Cumulative # of training samples: 2.20e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch44
+Sampling with factor=0 ended in 27.22521710395813s. Conversion to Data object ended in 140.2420153617859s.
+Iteration: 045	Loss: 0.0749	Acc: 0.9733	Validation Acc: 0.9730	Validation Loss: 0.0754	Cumulative # of training samples: 2.25e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch45
+Sampling with factor=0 ended in 27.426594495773315s. Conversion to Data object ended in 140.39798784255981s.
+Iteration: 046	Loss: 0.0747	Acc: 0.9734	Validation Acc: 0.9734	Validation Loss: 0.0753	Cumulative # of training samples: 2.30e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch46
+Sampling with factor=0 ended in 27.572484493255615s. Conversion to Data object ended in 140.42010283470154s.
+Iteration: 047	Loss: 0.0744	Acc: 0.9735	Validation Acc: 0.9729	Validation Loss: 0.0752	Cumulative # of training samples: 2.35e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch47
+Sampling with factor=0 ended in 27.48615050315857s. Conversion to Data object ended in 141.033842086792s.
+Iteration: 048	Loss: 0.0742	Acc: 0.9736	Validation Acc: 0.9733	Validation Loss: 0.0748	Cumulative # of training samples: 2.40e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch48
+Sampling with factor=0 ended in 27.316832542419434s. Conversion to Data object ended in 140.5521068572998s.
+Iteration: 049	Loss: 0.0739	Acc: 0.9737	Validation Acc: 0.9728	Validation Loss: 0.0757	Cumulative # of training samples: 2.45e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch49
+Sampling with factor=0 ended in 27.564854621887207s. Conversion to Data object ended in 141.03545999526978s.
+Iteration: 050	Loss: 0.0736	Acc: 0.9738	Validation Acc: 0.9735	Validation Loss: 0.0744	Cumulative # of training samples: 2.50e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch50
+Sampling with factor=0 ended in 27.550419807434082s. Conversion to Data object ended in 141.02688121795654s.
+Iteration: 051	Loss: 0.0735	Acc: 0.9738	Validation Acc: 0.9732	Validation Loss: 0.0754	Cumulative # of training samples: 2.55e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch51
+Sampling with factor=0 ended in 27.521574020385742s. Conversion to Data object ended in 141.10743856430054s.
+Iteration: 052	Loss: 0.0734	Acc: 0.9739	Validation Acc: 0.9729	Validation Loss: 0.0750	Cumulative # of training samples: 2.60e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch52
+Sampling with factor=0 ended in 27.37556743621826s. Conversion to Data object ended in 140.4080924987793s.
+Iteration: 053	Loss: 0.0731	Acc: 0.9740	Validation Acc: 0.9737	Validation Loss: 0.0751	Cumulative # of training samples: 2.65e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch53
+Sampling with factor=0 ended in 27.506709575653076s. Conversion to Data object ended in 140.51128602027893s.
+Iteration: 054	Loss: 0.0727	Acc: 0.9742	Validation Acc: 0.9738	Validation Loss: 0.0742	Cumulative # of training samples: 2.70e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch54
+Sampling with factor=0 ended in 27.445954084396362s. Conversion to Data object ended in 141.18361234664917s.
+Iteration: 055	Loss: 0.0725	Acc: 0.9743	Validation Acc: 0.9735	Validation Loss: 0.0736	Cumulative # of training samples: 2.75e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch55
+Sampling with factor=0 ended in 27.397992610931396s. Conversion to Data object ended in 141.3586368560791s.
+Iteration: 056	Loss: 0.0724	Acc: 0.9744	Validation Acc: 0.9734	Validation Loss: 0.0742	Cumulative # of training samples: 2.80e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch56
+Sampling with factor=0 ended in 27.099837064743042s. Conversion to Data object ended in 140.75970768928528s.
+Iteration: 057	Loss: 0.0724	Acc: 0.9743	Validation Acc: 0.9738	Validation Loss: 0.0733	Cumulative # of training samples: 2.85e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch57
+Sampling with factor=0 ended in 27.467991590499878s. Conversion to Data object ended in 141.17343616485596s.
+Iteration: 058	Loss: 0.0723	Acc: 0.9743	Validation Acc: 0.9733	Validation Loss: 0.0736	Cumulative # of training samples: 2.90e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch58
+Sampling with factor=0 ended in 27.46294355392456s. Conversion to Data object ended in 140.68270993232727s.
+Iteration: 059	Loss: 0.0723	Acc: 0.9744	Validation Acc: 0.9735	Validation Loss: 0.0735	Cumulative # of training samples: 2.95e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch59
+Sampling with factor=0 ended in 27.43459391593933s. Conversion to Data object ended in 140.19765329360962s.
+Iteration: 060	Loss: 0.0722	Acc: 0.9744	Validation Acc: 0.9736	Validation Loss: 0.0732	Cumulative # of training samples: 3.00e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch60
+Sampling with factor=0 ended in 27.29934525489807s. Conversion to Data object ended in 140.66717672348022s.
+Iteration: 061	Loss: 0.0720	Acc: 0.9745	Validation Acc: 0.9740	Validation Loss: 0.0736	Cumulative # of training samples: 3.05e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch61
+Sampling with factor=0 ended in 27.52652597427368s. Conversion to Data object ended in 141.13775300979614s.
+Iteration: 062	Loss: 0.0720	Acc: 0.9746	Validation Acc: 0.9740	Validation Loss: 0.0728	Cumulative # of training samples: 3.10e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch62
+Sampling with factor=0 ended in 27.390591621398926s. Conversion to Data object ended in 140.2028398513794s.
+Iteration: 063	Loss: 0.0718	Acc: 0.9747	Validation Acc: 0.9738	Validation Loss: 0.0729	Cumulative # of training samples: 3.15e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch63
+Sampling with factor=0 ended in 27.48062014579773s. Conversion to Data object ended in 140.8248701095581s.
+Iteration: 064	Loss: 0.0717	Acc: 0.9747	Validation Acc: 0.9743	Validation Loss: 0.0730	Cumulative # of training samples: 3.20e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch64
+Sampling with factor=0 ended in 27.340248107910156s. Conversion to Data object ended in 140.29783964157104s.
+Iteration: 065	Loss: 0.0718	Acc: 0.9746	Validation Acc: 0.9742	Validation Loss: 0.0725	Cumulative # of training samples: 3.25e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch65
+Sampling with factor=0 ended in 27.498480558395386s. Conversion to Data object ended in 140.2148139476776s.
+Iteration: 066	Loss: 0.0717	Acc: 0.9747	Validation Acc: 0.9736	Validation Loss: 0.0732	Cumulative # of training samples: 3.30e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch66
+Sampling with factor=0 ended in 27.476123094558716s. Conversion to Data object ended in 139.99577569961548s.
+Iteration: 067	Loss: 0.0716	Acc: 0.9748	Validation Acc: 0.9750	Validation Loss: 0.0720	Cumulative # of training samples: 3.35e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch67
+Sampling with factor=0 ended in 27.656869649887085s. Conversion to Data object ended in 140.13225555419922s.
+Iteration: 068	Loss: 0.0715	Acc: 0.9748	Validation Acc: 0.9744	Validation Loss: 0.0726	Cumulative # of training samples: 3.40e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch68
+Sampling with factor=0 ended in 27.57198691368103s. Conversion to Data object ended in 139.97246432304382s.
+Iteration: 069	Loss: 0.0712	Acc: 0.9749	Validation Acc: 0.9739	Validation Loss: 0.0727	Cumulative # of training samples: 3.45e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch69
+Sampling with factor=0 ended in 27.803285121917725s. Conversion to Data object ended in 140.4355185031891s.
+Iteration: 070	Loss: 0.0710	Acc: 0.9749	Validation Acc: 0.9744	Validation Loss: 0.0722	Cumulative # of training samples: 3.50e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch70
+Sampling with factor=0 ended in 27.888805866241455s. Conversion to Data object ended in 139.2637665271759s.
+Iteration: 071	Loss: 0.0710	Acc: 0.9749	Validation Acc: 0.9744	Validation Loss: 0.0721	Cumulative # of training samples: 3.55e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch71
+Sampling with factor=0 ended in 27.72278594970703s. Conversion to Data object ended in 140.39275646209717s.
+Iteration: 072	Loss: 0.0707	Acc: 0.9749	Validation Acc: 0.9749	Validation Loss: 0.0716	Cumulative # of training samples: 3.60e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch72
+Sampling with factor=0 ended in 27.56663465499878s. Conversion to Data object ended in 140.14647603034973s.
+Iteration: 073	Loss: 0.0707	Acc: 0.9750	Validation Acc: 0.9748	Validation Loss: 0.0718	Cumulative # of training samples: 3.65e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch73
+Sampling with factor=0 ended in 27.762712478637695s. Conversion to Data object ended in 139.45735692977905s.
+Iteration: 074	Loss: 0.0707	Acc: 0.9751	Validation Acc: 0.9746	Validation Loss: 0.0715	Cumulative # of training samples: 3.70e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch74
+Sampling with factor=0 ended in 27.703176975250244s. Conversion to Data object ended in 140.31126642227173s.
+Iteration: 075	Loss: 0.0704	Acc: 0.9753	Validation Acc: 0.9744	Validation Loss: 0.0721	Cumulative # of training samples: 3.75e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch75
+Sampling with factor=0 ended in 27.547152280807495s. Conversion to Data object ended in 140.14941573143005s.
+Iteration: 076	Loss: 0.0706	Acc: 0.9752	Validation Acc: 0.9746	Validation Loss: 0.0716	Cumulative # of training samples: 3.80e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch76
+Sampling with factor=0 ended in 27.373903512954712s. Conversion to Data object ended in 140.32614040374756s.
+Iteration: 077	Loss: 0.0705	Acc: 0.9752	Validation Acc: 0.9746	Validation Loss: 0.0717	Cumulative # of training samples: 3.85e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch77
+Sampling with factor=0 ended in 27.579595804214478s. Conversion to Data object ended in 140.29614925384521s.
+Iteration: 078	Loss: 0.0703	Acc: 0.9753	Validation Acc: 0.9749	Validation Loss: 0.0711	Cumulative # of training samples: 3.90e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch78
+Sampling with factor=0 ended in 27.61169672012329s. Conversion to Data object ended in 140.34607648849487s.
+Iteration: 079	Loss: 0.0704	Acc: 0.9753	Validation Acc: 0.9750	Validation Loss: 0.0711	Cumulative # of training samples: 3.95e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch79
+Sampling with factor=0 ended in 27.613343477249146s. Conversion to Data object ended in 140.5187315940857s.
+Iteration: 080	Loss: 0.0700	Acc: 0.9754	Validation Acc: 0.9750	Validation Loss: 0.0712	Cumulative # of training samples: 4.00e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch80
+Sampling with factor=0 ended in 27.459543704986572s. Conversion to Data object ended in 140.5779709815979s.
+Iteration: 081	Loss: 0.0699	Acc: 0.9754	Validation Acc: 0.9749	Validation Loss: 0.0711	Cumulative # of training samples: 4.05e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch81
+Sampling with factor=0 ended in 27.26621150970459s. Conversion to Data object ended in 140.8964786529541s.
+Iteration: 082	Loss: 0.0701	Acc: 0.9754	Validation Acc: 0.9745	Validation Loss: 0.0711	Cumulative # of training samples: 4.10e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch82
+Sampling with factor=0 ended in 27.46933388710022s. Conversion to Data object ended in 139.38274717330933s.
+Iteration: 083	Loss: 0.0700	Acc: 0.9754	Validation Acc: 0.9749	Validation Loss: 0.0709	Cumulative # of training samples: 4.15e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch83
+Sampling with factor=0 ended in 27.547969341278076s. Conversion to Data object ended in 140.0672197341919s.
+Iteration: 084	Loss: 0.0700	Acc: 0.9754	Validation Acc: 0.9753	Validation Loss: 0.0712	Cumulative # of training samples: 4.20e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch84
+Sampling with factor=0 ended in 27.07846689224243s. Conversion to Data object ended in 140.2946765422821s.
+Iteration: 085	Loss: 0.0700	Acc: 0.9754	Validation Acc: 0.9751	Validation Loss: 0.0708	Cumulative # of training samples: 4.25e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch85
+Sampling with factor=0 ended in 27.322422742843628s. Conversion to Data object ended in 140.4546046257019s.
+Iteration: 086	Loss: 0.0699	Acc: 0.9755	Validation Acc: 0.9747	Validation Loss: 0.0715	Cumulative # of training samples: 4.30e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch86
+Sampling with factor=0 ended in 27.394970178604126s. Conversion to Data object ended in 139.38208198547363s.
+Iteration: 087	Loss: 0.0698	Acc: 0.9755	Validation Acc: 0.9748	Validation Loss: 0.0717	Cumulative # of training samples: 4.35e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch87
+Sampling with factor=0 ended in 27.298481941223145s. Conversion to Data object ended in 140.46506786346436s.
+Iteration: 088	Loss: 0.0698	Acc: 0.9755	Validation Acc: 0.9750	Validation Loss: 0.0714	Cumulative # of training samples: 4.40e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch88
+Sampling with factor=0 ended in 27.154725313186646s. Conversion to Data object ended in 140.7405345439911s.
+Iteration: 089	Loss: 0.0699	Acc: 0.9755	Validation Acc: 0.9755	Validation Loss: 0.0711	Cumulative # of training samples: 4.45e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch89
+Sampling with factor=0 ended in 27.398635864257812s. Conversion to Data object ended in 140.4904820919037s.
+Iteration: 090	Loss: 0.0698	Acc: 0.9756	Validation Acc: 0.9749	Validation Loss: 0.0708	Cumulative # of training samples: 4.50e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch90
+Sampling with factor=0 ended in 27.51233220100403s. Conversion to Data object ended in 140.3062665462494s.
+Iteration: 091	Loss: 0.0696	Acc: 0.9756	Validation Acc: 0.9757	Validation Loss: 0.0706	Cumulative # of training samples: 4.55e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch91
+Sampling with factor=0 ended in 27.51044249534607s. Conversion to Data object ended in 140.11890625953674s.
+Iteration: 092	Loss: 0.0695	Acc: 0.9757	Validation Acc: 0.9753	Validation Loss: 0.0709	Cumulative # of training samples: 4.60e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch92
+Sampling with factor=0 ended in 27.223947048187256s. Conversion to Data object ended in 138.98933291435242s.
+Iteration: 093	Loss: 0.0692	Acc: 0.9758	Validation Acc: 0.9753	Validation Loss: 0.0706	Cumulative # of training samples: 4.65e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch93
+Sampling with factor=0 ended in 27.34991955757141s. Conversion to Data object ended in 139.28276991844177s.
+Iteration: 094	Loss: 0.0693	Acc: 0.9757	Validation Acc: 0.9751	Validation Loss: 0.0706	Cumulative # of training samples: 4.70e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch94
+Sampling with factor=0 ended in 27.371888637542725s. Conversion to Data object ended in 140.49638652801514s.
+Iteration: 095	Loss: 0.0691	Acc: 0.9758	Validation Acc: 0.9753	Validation Loss: 0.0708	Cumulative # of training samples: 4.75e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch95
+Sampling with factor=0 ended in 27.509535789489746s. Conversion to Data object ended in 140.07093143463135s.
+Iteration: 096	Loss: 0.0691	Acc: 0.9758	Validation Acc: 0.9751	Validation Loss: 0.0704	Cumulative # of training samples: 4.80e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch96
+Sampling with factor=0 ended in 27.267101526260376s. Conversion to Data object ended in 140.01500916481018s.
+Iteration: 097	Loss: 0.0692	Acc: 0.9758	Validation Acc: 0.9754	Validation Loss: 0.0707	Cumulative # of training samples: 4.85e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch97
+Sampling with factor=0 ended in 27.459577560424805s. Conversion to Data object ended in 140.6518576145172s.
+Iteration: 098	Loss: 0.0691	Acc: 0.9758	Validation Acc: 0.9754	Validation Loss: 0.0703	Cumulative # of training samples: 4.90e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch98
+Sampling with factor=0 ended in 27.538286924362183s. Conversion to Data object ended in 140.1030514240265s.
+Iteration: 099	Loss: 0.0690	Acc: 0.9758	Validation Acc: 0.9752	Validation Loss: 0.0710	Cumulative # of training samples: 4.95e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch99
+Sampling with factor=0 ended in 27.41338586807251s. Conversion to Data object ended in 140.35549807548523s.
+Iteration: 100	Loss: 0.0690	Acc: 0.9758	Validation Acc: 0.9753	Validation Loss: 0.0702	Cumulative # of training samples: 5.00e+08	. Saving model... Model successfully saved in d3_d_t_11_rep_epoch100
+Completed all training iterations!
+Saving final model and history to file.
+
+==== BENCHMARKING ====
+Training setup: 0.0011625750921666622
+Sampling and Graphing: 26562.726985625457
+Fitting: 32569.14715697337
+	Sum: 59131.87530517392
+
+==== TESTING ====
+******************************
+len(test_data)=434 (refers to a single error rate)
+******************************
+non-trivial syndromes: 434, trivial syndromes: 566
+correct, non-trivial predictions: 434
+Test accuracy: 1.0, Error rate: 0.001
+******************************
+len(test_data)=688 (refers to a single error rate)
+******************************
+non-trivial syndromes: 688, trivial syndromes: 312
+correct, non-trivial predictions: 679
+Test accuracy: 0.991, Error rate: 0.002
+******************************
+len(test_data)=846 (refers to a single error rate)
+******************************
+non-trivial syndromes: 846, trivial syndromes: 154
+correct, non-trivial predictions: 833
+Test accuracy: 0.987, Error rate: 0.003
+******************************
+len(test_data)=910 (refers to a single error rate)
+******************************
+non-trivial syndromes: 910, trivial syndromes: 90
+correct, non-trivial predictions: 871
+Test accuracy: 0.961, Error rate: 0.004
+******************************
+len(test_data)=954 (refers to a single error rate)
+******************************
+non-trivial syndromes: 954, trivial syndromes: 46
+correct, non-trivial predictions: 905
+Test accuracy: 0.951, Error rate: 0.005

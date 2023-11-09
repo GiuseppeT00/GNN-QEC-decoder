@@ -1,0 +1,182 @@
+
+==== DECODER PARAMETERS ====
+Moving model to cuda... Done.
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/circuit_level_noise/d5', 'save_prefix': 'd5_d_t_5_norep', 'resumed_training_file_name': None}
+Code size: 5
+
+Repetitions: 5
+
+Training error rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 150 iteration(s).
+Buffer has 5000000 samples, replacing 0 samples with each iteration.
+Total number of unique samples in this run: 5.00e+06
+Data correctly red. Elapsed time: 1280.8040323257446s
+******************************
+len(training_data)=5000000 ; len(validation_data)=50000
+******************************
+Iteration: 001	Loss: 0.3117	Acc: 0.8783	Validation Acc: 0.9000	Validation Loss: 0.2316	Cumulative # of training samples: 5.00e+06	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch1
+Iteration: 002	Loss: 0.1871	Acc: 0.9179	Validation Acc: 0.9323	Validation Loss: 0.1555	Cumulative # of training samples: 1.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch2
+Iteration: 003	Loss: 0.1445	Acc: 0.9373	Validation Acc: 0.9395	Validation Loss: 0.1370	Cumulative # of training samples: 1.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch3
+Iteration: 004	Loss: 0.1275	Acc: 0.9451	Validation Acc: 0.9479	Validation Loss: 0.1196	Cumulative # of training samples: 2.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch4
+Iteration: 005	Loss: 0.1148	Acc: 0.9510	Validation Acc: 0.9524	Validation Loss: 0.1096	Cumulative # of training samples: 2.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch5
+Iteration: 006	Loss: 0.1038	Acc: 0.9557	Validation Acc: 0.9586	Validation Loss: 0.0967	Cumulative # of training samples: 3.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch6
+Iteration: 007	Loss: 0.0942	Acc: 0.9600	Validation Acc: 0.9611	Validation Loss: 0.0912	Cumulative # of training samples: 3.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch7
+Iteration: 008	Loss: 0.0854	Acc: 0.9637	Validation Acc: 0.9658	Validation Loss: 0.0814	Cumulative # of training samples: 4.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch8
+Iteration: 009	Loss: 0.0783	Acc: 0.9670	Validation Acc: 0.9683	Validation Loss: 0.0756	Cumulative # of training samples: 4.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch9
+Iteration: 010	Loss: 0.0726	Acc: 0.9694	Validation Acc: 0.9708	Validation Loss: 0.0699	Cumulative # of training samples: 5.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch10
+Iteration: 011	Loss: 0.0681	Acc: 0.9713	Validation Acc: 0.9734	Validation Loss: 0.0656	Cumulative # of training samples: 5.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch11
+Iteration: 012	Loss: 0.0638	Acc: 0.9733	Validation Acc: 0.9734	Validation Loss: 0.0643	Cumulative # of training samples: 6.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch12
+Iteration: 013	Loss: 0.0606	Acc: 0.9746	Validation Acc: 0.9745	Validation Loss: 0.0622	Cumulative # of training samples: 6.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch13
+Iteration: 014	Loss: 0.0574	Acc: 0.9762	Validation Acc: 0.9773	Validation Loss: 0.0562	Cumulative # of training samples: 7.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch14
+Iteration: 015	Loss: 0.0548	Acc: 0.9773	Validation Acc: 0.9780	Validation Loss: 0.0547	Cumulative # of training samples: 7.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch15
+Iteration: 016	Loss: 0.0524	Acc: 0.9783	Validation Acc: 0.9788	Validation Loss: 0.0528	Cumulative # of training samples: 8.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch16
+Iteration: 017	Loss: 0.0507	Acc: 0.9792	Validation Acc: 0.9768	Validation Loss: 0.0568	Cumulative # of training samples: 8.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch17
+Iteration: 018	Loss: 0.0485	Acc: 0.9801	Validation Acc: 0.9803	Validation Loss: 0.0491	Cumulative # of training samples: 9.00e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch18
+Iteration: 019	Loss: 0.0465	Acc: 0.9809	Validation Acc: 0.9804	Validation Loss: 0.0476	Cumulative # of training samples: 9.50e+07	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch19
+Iteration: 020	Loss: 0.0449	Acc: 0.9816	Validation Acc: 0.9813	Validation Loss: 0.0481	Cumulative # of training samples: 1.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch20
+Iteration: 021	Loss: 0.0435	Acc: 0.9822	Validation Acc: 0.9816	Validation Loss: 0.0454	Cumulative # of training samples: 1.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch21
+Iteration: 022	Loss: 0.0421	Acc: 0.9828	Validation Acc: 0.9825	Validation Loss: 0.0447	Cumulative # of training samples: 1.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch22
+Iteration: 023	Loss: 0.0407	Acc: 0.9834	Validation Acc: 0.9827	Validation Loss: 0.0441	Cumulative # of training samples: 1.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch23
+Iteration: 024	Loss: 0.0396	Acc: 0.9839	Validation Acc: 0.9830	Validation Loss: 0.0434	Cumulative # of training samples: 1.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch24
+Iteration: 025	Loss: 0.0382	Acc: 0.9845	Validation Acc: 0.9833	Validation Loss: 0.0427	Cumulative # of training samples: 1.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch25
+Iteration: 026	Loss: 0.0372	Acc: 0.9849	Validation Acc: 0.9842	Validation Loss: 0.0423	Cumulative # of training samples: 1.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch26
+Iteration: 027	Loss: 0.0362	Acc: 0.9854	Validation Acc: 0.9842	Validation Loss: 0.0421	Cumulative # of training samples: 1.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch27
+Iteration: 028	Loss: 0.0351	Acc: 0.9858	Validation Acc: 0.9842	Validation Loss: 0.0399	Cumulative # of training samples: 1.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch28
+Iteration: 029	Loss: 0.0342	Acc: 0.9862	Validation Acc: 0.9843	Validation Loss: 0.0403	Cumulative # of training samples: 1.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch29
+Iteration: 030	Loss: 0.0334	Acc: 0.9865	Validation Acc: 0.9848	Validation Loss: 0.0396	Cumulative # of training samples: 1.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch30
+Iteration: 031	Loss: 0.0324	Acc: 0.9869	Validation Acc: 0.9846	Validation Loss: 0.0412	Cumulative # of training samples: 1.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch31
+Iteration: 032	Loss: 0.0316	Acc: 0.9872	Validation Acc: 0.9851	Validation Loss: 0.0393	Cumulative # of training samples: 1.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch32
+Iteration: 033	Loss: 0.0308	Acc: 0.9876	Validation Acc: 0.9853	Validation Loss: 0.0391	Cumulative # of training samples: 1.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch33
+Iteration: 034	Loss: 0.0300	Acc: 0.9879	Validation Acc: 0.9858	Validation Loss: 0.0385	Cumulative # of training samples: 1.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch34
+Iteration: 035	Loss: 0.0293	Acc: 0.9882	Validation Acc: 0.9857	Validation Loss: 0.0389	Cumulative # of training samples: 1.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch35
+Iteration: 036	Loss: 0.0287	Acc: 0.9885	Validation Acc: 0.9856	Validation Loss: 0.0393	Cumulative # of training samples: 1.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch36
+Iteration: 037	Loss: 0.0279	Acc: 0.9888	Validation Acc: 0.9854	Validation Loss: 0.0391	Cumulative # of training samples: 1.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch37
+Iteration: 038	Loss: 0.0271	Acc: 0.9891	Validation Acc: 0.9855	Validation Loss: 0.0396	Cumulative # of training samples: 1.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch38
+Iteration: 039	Loss: 0.0268	Acc: 0.9892	Validation Acc: 0.9864	Validation Loss: 0.0378	Cumulative # of training samples: 1.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch39
+Iteration: 040	Loss: 0.0259	Acc: 0.9897	Validation Acc: 0.9861	Validation Loss: 0.0393	Cumulative # of training samples: 2.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch40
+Iteration: 041	Loss: 0.0252	Acc: 0.9899	Validation Acc: 0.9865	Validation Loss: 0.0378	Cumulative # of training samples: 2.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch41
+Iteration: 042	Loss: 0.0247	Acc: 0.9901	Validation Acc: 0.9854	Validation Loss: 0.0396	Cumulative # of training samples: 2.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch42
+Iteration: 043	Loss: 0.0240	Acc: 0.9904	Validation Acc: 0.9858	Validation Loss: 0.0389	Cumulative # of training samples: 2.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch43
+Iteration: 044	Loss: 0.0234	Acc: 0.9906	Validation Acc: 0.9862	Validation Loss: 0.0403	Cumulative # of training samples: 2.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch44
+Iteration: 045	Loss: 0.0230	Acc: 0.9908	Validation Acc: 0.9858	Validation Loss: 0.0398	Cumulative # of training samples: 2.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch45
+Iteration: 046	Loss: 0.0223	Acc: 0.9911	Validation Acc: 0.9859	Validation Loss: 0.0389	Cumulative # of training samples: 2.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch46
+Iteration: 047	Loss: 0.0216	Acc: 0.9913	Validation Acc: 0.9859	Validation Loss: 0.0388	Cumulative # of training samples: 2.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch47
+Iteration: 048	Loss: 0.0210	Acc: 0.9916	Validation Acc: 0.9850	Validation Loss: 0.0433	Cumulative # of training samples: 2.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch48
+Iteration: 049	Loss: 0.0205	Acc: 0.9919	Validation Acc: 0.9864	Validation Loss: 0.0427	Cumulative # of training samples: 2.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch49
+Iteration: 050	Loss: 0.0200	Acc: 0.9920	Validation Acc: 0.9857	Validation Loss: 0.0439	Cumulative # of training samples: 2.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch50
+Iteration: 051	Loss: 0.0199	Acc: 0.9921	Validation Acc: 0.9858	Validation Loss: 0.0422	Cumulative # of training samples: 2.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch51
+Iteration: 052	Loss: 0.0190	Acc: 0.9925	Validation Acc: 0.9863	Validation Loss: 0.0424	Cumulative # of training samples: 2.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch52
+Iteration: 053	Loss: 0.0186	Acc: 0.9927	Validation Acc: 0.9858	Validation Loss: 0.0434	Cumulative # of training samples: 2.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch53
+Iteration: 054	Loss: 0.0180	Acc: 0.9929	Validation Acc: 0.9857	Validation Loss: 0.0434	Cumulative # of training samples: 2.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch54
+Iteration: 055	Loss: 0.0175	Acc: 0.9931	Validation Acc: 0.9856	Validation Loss: 0.0442	Cumulative # of training samples: 2.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch55
+Iteration: 056	Loss: 0.0171	Acc: 0.9933	Validation Acc: 0.9858	Validation Loss: 0.0487	Cumulative # of training samples: 2.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch56
+Iteration: 057	Loss: 0.0167	Acc: 0.9934	Validation Acc: 0.9855	Validation Loss: 0.0455	Cumulative # of training samples: 2.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch57
+Iteration: 058	Loss: 0.0163	Acc: 0.9936	Validation Acc: 0.9862	Validation Loss: 0.0469	Cumulative # of training samples: 2.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch58
+Iteration: 059	Loss: 0.0157	Acc: 0.9938	Validation Acc: 0.9853	Validation Loss: 0.0496	Cumulative # of training samples: 2.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch59
+Iteration: 060	Loss: 0.0154	Acc: 0.9939	Validation Acc: 0.9855	Validation Loss: 0.0497	Cumulative # of training samples: 3.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch60
+Iteration: 061	Loss: 0.0150	Acc: 0.9941	Validation Acc: 0.9857	Validation Loss: 0.0509	Cumulative # of training samples: 3.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch61
+Iteration: 062	Loss: 0.0146	Acc: 0.9942	Validation Acc: 0.9856	Validation Loss: 0.0511	Cumulative # of training samples: 3.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch62
+Iteration: 063	Loss: 0.0142	Acc: 0.9944	Validation Acc: 0.9857	Validation Loss: 0.0522	Cumulative # of training samples: 3.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch63
+Iteration: 064	Loss: 0.0138	Acc: 0.9946	Validation Acc: 0.9857	Validation Loss: 0.0540	Cumulative # of training samples: 3.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch64
+Iteration: 065	Loss: 0.0135	Acc: 0.9947	Validation Acc: 0.9854	Validation Loss: 0.0549	Cumulative # of training samples: 3.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch65
+Iteration: 066	Loss: 0.0132	Acc: 0.9948	Validation Acc: 0.9856	Validation Loss: 0.0543	Cumulative # of training samples: 3.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch66
+Iteration: 067	Loss: 0.0128	Acc: 0.9950	Validation Acc: 0.9855	Validation Loss: 0.0545	Cumulative # of training samples: 3.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch67
+Iteration: 068	Loss: 0.0125	Acc: 0.9951	Validation Acc: 0.9862	Validation Loss: 0.0537	Cumulative # of training samples: 3.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch68
+Iteration: 069	Loss: 0.0121	Acc: 0.9953	Validation Acc: 0.9856	Validation Loss: 0.0552	Cumulative # of training samples: 3.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch69
+Iteration: 070	Loss: 0.0118	Acc: 0.9954	Validation Acc: 0.9856	Validation Loss: 0.0554	Cumulative # of training samples: 3.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch70
+Iteration: 071	Loss: 0.0115	Acc: 0.9955	Validation Acc: 0.9856	Validation Loss: 0.0555	Cumulative # of training samples: 3.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch71
+Iteration: 072	Loss: 0.0113	Acc: 0.9956	Validation Acc: 0.9856	Validation Loss: 0.0599	Cumulative # of training samples: 3.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch72
+Iteration: 073	Loss: 0.0111	Acc: 0.9957	Validation Acc: 0.9849	Validation Loss: 0.0624	Cumulative # of training samples: 3.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch73
+Iteration: 074	Loss: 0.0108	Acc: 0.9958	Validation Acc: 0.9854	Validation Loss: 0.0594	Cumulative # of training samples: 3.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch74
+Iteration: 075	Loss: 0.0105	Acc: 0.9960	Validation Acc: 0.9860	Validation Loss: 0.0611	Cumulative # of training samples: 3.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch75
+Iteration: 076	Loss: 0.0101	Acc: 0.9961	Validation Acc: 0.9864	Validation Loss: 0.0634	Cumulative # of training samples: 3.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch76
+Iteration: 077	Loss: 0.0100	Acc: 0.9962	Validation Acc: 0.9850	Validation Loss: 0.0635	Cumulative # of training samples: 3.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch77
+Iteration: 078	Loss: 0.0097	Acc: 0.9963	Validation Acc: 0.9853	Validation Loss: 0.0632	Cumulative # of training samples: 3.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch78
+Iteration: 079	Loss: 0.0096	Acc: 0.9963	Validation Acc: 0.9853	Validation Loss: 0.0638	Cumulative # of training samples: 3.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch79
+Iteration: 080	Loss: 0.0092	Acc: 0.9965	Validation Acc: 0.9854	Validation Loss: 0.0646	Cumulative # of training samples: 4.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch80
+Iteration: 081	Loss: 0.0090	Acc: 0.9966	Validation Acc: 0.9847	Validation Loss: 0.0688	Cumulative # of training samples: 4.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch81
+Iteration: 082	Loss: 0.0094	Acc: 0.9964	Validation Acc: 0.9846	Validation Loss: 0.0513	Cumulative # of training samples: 4.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch82
+Iteration: 083	Loss: 0.0088	Acc: 0.9966	Validation Acc: 0.9856	Validation Loss: 0.0655	Cumulative # of training samples: 4.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch83
+Iteration: 084	Loss: 0.0083	Acc: 0.9968	Validation Acc: 0.9854	Validation Loss: 0.0706	Cumulative # of training samples: 4.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch84
+Iteration: 085	Loss: 0.0083	Acc: 0.9969	Validation Acc: 0.9852	Validation Loss: 0.0711	Cumulative # of training samples: 4.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch85
+Iteration: 086	Loss: 0.0083	Acc: 0.9969	Validation Acc: 0.9856	Validation Loss: 0.0678	Cumulative # of training samples: 4.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch86
+Iteration: 087	Loss: 0.0085	Acc: 0.9969	Validation Acc: 0.9851	Validation Loss: 0.0712	Cumulative # of training samples: 4.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch87
+Iteration: 088	Loss: 0.0074	Acc: 0.9972	Validation Acc: 0.9845	Validation Loss: 0.0721	Cumulative # of training samples: 4.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch88
+Iteration: 089	Loss: 0.0075	Acc: 0.9971	Validation Acc: 0.9845	Validation Loss: 0.0727	Cumulative # of training samples: 4.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch89
+Iteration: 090	Loss: 0.0078	Acc: 0.9971	Validation Acc: 0.9852	Validation Loss: 0.0711	Cumulative # of training samples: 4.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch90
+Iteration: 091	Loss: 0.0071	Acc: 0.9973	Validation Acc: 0.9851	Validation Loss: 0.0722	Cumulative # of training samples: 4.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch91
+Iteration: 092	Loss: 0.0078	Acc: 0.9972	Validation Acc: 0.9854	Validation Loss: 0.0605	Cumulative # of training samples: 4.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch92
+Iteration: 093	Loss: 0.0068	Acc: 0.9974	Validation Acc: 0.9850	Validation Loss: 0.0745	Cumulative # of training samples: 4.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch93
+Iteration: 094	Loss: 0.0070	Acc: 0.9974	Validation Acc: 0.9851	Validation Loss: 0.0783	Cumulative # of training samples: 4.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch94
+Iteration: 095	Loss: 0.0067	Acc: 0.9975	Validation Acc: 0.9851	Validation Loss: 0.0779	Cumulative # of training samples: 4.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch95
+Iteration: 096	Loss: 0.0067	Acc: 0.9975	Validation Acc: 0.9851	Validation Loss: 0.0747	Cumulative # of training samples: 4.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch96
+Iteration: 097	Loss: 0.0068	Acc: 0.9975	Validation Acc: 0.9854	Validation Loss: 0.0773	Cumulative # of training samples: 4.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch97
+Iteration: 098	Loss: 0.0063	Acc: 0.9976	Validation Acc: 0.9854	Validation Loss: 0.0761	Cumulative # of training samples: 4.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch98
+Iteration: 099	Loss: 0.0063	Acc: 0.9977	Validation Acc: 0.9854	Validation Loss: 0.0797	Cumulative # of training samples: 4.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch99
+Iteration: 100	Loss: 0.0061	Acc: 0.9978	Validation Acc: 0.9850	Validation Loss: 0.0803	Cumulative # of training samples: 5.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch100
+Iteration: 101	Loss: 0.0061	Acc: 0.9978	Validation Acc: 0.9853	Validation Loss: 0.0751	Cumulative # of training samples: 5.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch101
+Iteration: 102	Loss: 0.0061	Acc: 0.9978	Validation Acc: 0.9859	Validation Loss: 0.0737	Cumulative # of training samples: 5.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch102
+Iteration: 103	Loss: 0.0058	Acc: 0.9979	Validation Acc: 0.9856	Validation Loss: 0.0787	Cumulative # of training samples: 5.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch103
+Iteration: 104	Loss: 0.0058	Acc: 0.9979	Validation Acc: 0.9854	Validation Loss: 0.0770	Cumulative # of training samples: 5.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch104
+Iteration: 105	Loss: 0.0057	Acc: 0.9979	Validation Acc: 0.9852	Validation Loss: 0.0838	Cumulative # of training samples: 5.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch105
+Iteration: 106	Loss: 0.0055	Acc: 0.9980	Validation Acc: 0.9855	Validation Loss: 0.0834	Cumulative # of training samples: 5.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch106
+Iteration: 107	Loss: 0.0055	Acc: 0.9980	Validation Acc: 0.9861	Validation Loss: 0.0815	Cumulative # of training samples: 5.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch107
+Iteration: 108	Loss: 0.0054	Acc: 0.9980	Validation Acc: 0.9854	Validation Loss: 0.0842	Cumulative # of training samples: 5.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch108
+Iteration: 109	Loss: 0.0053	Acc: 0.9981	Validation Acc: 0.9856	Validation Loss: 0.0802	Cumulative # of training samples: 5.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch109
+Iteration: 110	Loss: 0.0053	Acc: 0.9981	Validation Acc: 0.9854	Validation Loss: 0.0831	Cumulative # of training samples: 5.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch110
+Iteration: 111	Loss: 0.0051	Acc: 0.9981	Validation Acc: 0.9853	Validation Loss: 0.0810	Cumulative # of training samples: 5.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch111
+Iteration: 112	Loss: 0.0050	Acc: 0.9982	Validation Acc: 0.9852	Validation Loss: 0.0857	Cumulative # of training samples: 5.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch112
+Iteration: 113	Loss: 0.0050	Acc: 0.9982	Validation Acc: 0.9853	Validation Loss: 0.0868	Cumulative # of training samples: 5.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch113
+Iteration: 114	Loss: 0.0049	Acc: 0.9982	Validation Acc: 0.9850	Validation Loss: 0.0852	Cumulative # of training samples: 5.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch114
+Iteration: 115	Loss: 0.0051	Acc: 0.9982	Validation Acc: 0.9852	Validation Loss: 0.0825	Cumulative # of training samples: 5.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch115
+Iteration: 116	Loss: 0.0048	Acc: 0.9983	Validation Acc: 0.9860	Validation Loss: 0.0876	Cumulative # of training samples: 5.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch116
+Iteration: 117	Loss: 0.0047	Acc: 0.9983	Validation Acc: 0.9852	Validation Loss: 0.0870	Cumulative # of training samples: 5.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch117
+Iteration: 118	Loss: 0.0084	Acc: 0.9972	Validation Acc: 0.9859	Validation Loss: 0.0851	Cumulative # of training samples: 5.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch118
+Iteration: 119	Loss: 0.0046	Acc: 0.9983	Validation Acc: 0.9854	Validation Loss: 0.0808	Cumulative # of training samples: 5.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch119
+Iteration: 120	Loss: 0.0045	Acc: 0.9984	Validation Acc: 0.9849	Validation Loss: 0.0868	Cumulative # of training samples: 6.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch120
+Iteration: 121	Loss: 0.0045	Acc: 0.9984	Validation Acc: 0.9849	Validation Loss: 0.0891	Cumulative # of training samples: 6.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch121
+Iteration: 122	Loss: 0.0050	Acc: 0.9982	Validation Acc: 0.9854	Validation Loss: 0.0842	Cumulative # of training samples: 6.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch122
+Iteration: 123	Loss: 0.0044	Acc: 0.9984	Validation Acc: 0.9856	Validation Loss: 0.0872	Cumulative # of training samples: 6.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch123
+Iteration: 124	Loss: 0.0043	Acc: 0.9985	Validation Acc: 0.9852	Validation Loss: 0.0849	Cumulative # of training samples: 6.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch124
+Iteration: 125	Loss: 0.0042	Acc: 0.9985	Validation Acc: 0.9858	Validation Loss: 0.0891	Cumulative # of training samples: 6.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch125
+Iteration: 126	Loss: 0.0042	Acc: 0.9985	Validation Acc: 0.9860	Validation Loss: 0.0869	Cumulative # of training samples: 6.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch126
+Iteration: 127	Loss: 0.0041	Acc: 0.9985	Validation Acc: 0.9852	Validation Loss: 0.0883	Cumulative # of training samples: 6.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch127
+Iteration: 128	Loss: 0.0041	Acc: 0.9985	Validation Acc: 0.9858	Validation Loss: 0.0943	Cumulative # of training samples: 6.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch128
+Iteration: 129	Loss: 0.0041	Acc: 0.9985	Validation Acc: 0.9849	Validation Loss: 0.0899	Cumulative # of training samples: 6.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch129
+Iteration: 130	Loss: 0.0040	Acc: 0.9986	Validation Acc: 0.9849	Validation Loss: 0.0933	Cumulative # of training samples: 6.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch130
+Iteration: 131	Loss: 0.0040	Acc: 0.9986	Validation Acc: 0.9854	Validation Loss: 0.0918	Cumulative # of training samples: 6.55e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch131
+Iteration: 132	Loss: 0.0039	Acc: 0.9986	Validation Acc: 0.9848	Validation Loss: 0.0974	Cumulative # of training samples: 6.60e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch132
+Iteration: 133	Loss: 0.0039	Acc: 0.9986	Validation Acc: 0.9854	Validation Loss: 0.0899	Cumulative # of training samples: 6.65e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch133
+Iteration: 134	Loss: 0.0038	Acc: 0.9986	Validation Acc: 0.9856	Validation Loss: 0.0898	Cumulative # of training samples: 6.70e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch134
+Iteration: 135	Loss: 0.0038	Acc: 0.9987	Validation Acc: 0.9850	Validation Loss: 0.0948	Cumulative # of training samples: 6.75e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch135
+Iteration: 136	Loss: 0.0037	Acc: 0.9987	Validation Acc: 0.9857	Validation Loss: 0.0938	Cumulative # of training samples: 6.80e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch136
+Iteration: 137	Loss: 0.0037	Acc: 0.9987	Validation Acc: 0.9852	Validation Loss: 0.0854	Cumulative # of training samples: 6.85e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch137
+Iteration: 138	Loss: 0.0038	Acc: 0.9987	Validation Acc: 0.9854	Validation Loss: 0.0820	Cumulative # of training samples: 6.90e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch138
+Iteration: 139	Loss: 0.0035	Acc: 0.9987	Validation Acc: 0.9850	Validation Loss: 0.0942	Cumulative # of training samples: 6.95e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch139
+Iteration: 140	Loss: 0.0036	Acc: 0.9987	Validation Acc: 0.9850	Validation Loss: 0.0931	Cumulative # of training samples: 7.00e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch140
+Iteration: 141	Loss: 0.0036	Acc: 0.9987	Validation Acc: 0.9853	Validation Loss: 0.0968	Cumulative # of training samples: 7.05e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch141
+Iteration: 142	Loss: 0.0035	Acc: 0.9988	Validation Acc: 0.9855	Validation Loss: 0.0918	Cumulative # of training samples: 7.10e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch142
+Iteration: 143	Loss: 0.0035	Acc: 0.9988	Validation Acc: 0.9856	Validation Loss: 0.0949	Cumulative # of training samples: 7.15e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch143
+Iteration: 144	Loss: 0.0035	Acc: 0.9988	Validation Acc: 0.9851	Validation Loss: 0.0950	Cumulative # of training samples: 7.20e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch144
+Iteration: 145	Loss: 0.0034	Acc: 0.9988	Validation Acc: 0.9854	Validation Loss: 0.0995	Cumulative # of training samples: 7.25e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch145
+Iteration: 146	Loss: 0.0034	Acc: 0.9988	Validation Acc: 0.9852	Validation Loss: 0.0989	Cumulative # of training samples: 7.30e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch146
+Iteration: 147	Loss: 0.0033	Acc: 0.9989	Validation Acc: 0.9854	Validation Loss: 0.1010	Cumulative # of training samples: 7.35e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch147
+Iteration: 148	Loss: 0.0034	Acc: 0.9988	Validation Acc: 0.9846	Validation Loss: 0.1019	Cumulative # of training samples: 7.40e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch148
+Iteration: 149	Loss: 0.0032	Acc: 0.9988	Validation Acc: 0.9853	Validation Loss: 0.0976	Cumulative # of training samples: 7.45e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch149
+Iteration: 150	Loss: 0.0034	Acc: 0.9988	Validation Acc: 0.9852	Validation Loss: 0.0972	Cumulative # of training samples: 7.50e+08	. Saving model... Model successfully saved in d5_d_t_5_norep_epoch150
+Completed all training iterations!
+Saving final model, history and data to file.
+
+==== BENCHMARKING ====
+Training setup: 0.004072133917361498
+Sampling and Graphing: 2450.689755430445
+Fitting: 48581.07774275169
+	Sum: 51031.77157031605
+
+
+=== Training completely ended. ===

@@ -1,0 +1,1072 @@
+
+==== DECODER PARAMETERS ====
+Moving model to cuda... Done.
+94.90962538797235% of RAM available.
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/', 'save_prefix': 'd5_d_t_5_rep_id2019404', 'resumed_training_file_name': None}
+Code size: 5
+
+Repetitions: 5
+
+Training error rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 300 iteration(s).
+Buffer has 50000 samples, replacing 10000 samples with each iteration.
+Total number of unique samples in this run: 3.05e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+94.65132416777392% of RAM available.
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 001	Loss: 2.1698	Acc: 0.7878	Validation Acc: 0.8391	Cumulative # of training samples: 5.00e+04
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 003	Loss: 0.5071	Acc: 0.8285	Validation Acc: 0.8353	Cumulative # of training samples: 1.50e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 006	Loss: 0.3841	Acc: 0.8438	Validation Acc: 0.8473	Cumulative # of training samples: 3.00e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 009	Loss: 0.3522	Acc: 0.8526	Validation Acc: 0.8588	Cumulative # of training samples: 4.50e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 012	Loss: 0.3419	Acc: 0.8642	Validation Acc: 0.8674	Cumulative # of training samples: 6.00e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 015	Loss: 0.3254	Acc: 0.8673	Validation Acc: 0.8706	Cumulative # of training samples: 7.50e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 018	Loss: 0.3214	Acc: 0.8700	Validation Acc: 0.8719	Cumulative # of training samples: 9.00e+05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 021	Loss: 0.3113	Acc: 0.8726	Validation Acc: 0.8731	Cumulative # of training samples: 1.05e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 024	Loss: 0.3045	Acc: 0.8754	Validation Acc: 0.8770	Cumulative # of training samples: 1.20e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 027	Loss: 0.3016	Acc: 0.8755	Validation Acc: 0.8764	Cumulative # of training samples: 1.35e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 030	Loss: 0.3004	Acc: 0.8763	Validation Acc: 0.8773	Cumulative # of training samples: 1.50e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 033	Loss: 0.3029	Acc: 0.8754	Validation Acc: 0.8788	Cumulative # of training samples: 1.65e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 036	Loss: 0.3007	Acc: 0.8762	Validation Acc: 0.8794	Cumulative # of training samples: 1.80e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 039	Loss: 0.3002	Acc: 0.8776	Validation Acc: 0.8785	Cumulative # of training samples: 1.95e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 042	Loss: 0.2982	Acc: 0.8772	Validation Acc: 0.8800	Cumulative # of training samples: 2.10e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 045	Loss: 0.2911	Acc: 0.8806	Validation Acc: 0.8809	Cumulative # of training samples: 2.25e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 048	Loss: 0.2872	Acc: 0.8816	Validation Acc: 0.8806	Cumulative # of training samples: 2.40e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 051	Loss: 0.2847	Acc: 0.8824	Validation Acc: 0.8822	Cumulative # of training samples: 2.55e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 054	Loss: 0.2868	Acc: 0.8829	Validation Acc: 0.8841	Cumulative # of training samples: 2.70e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 057	Loss: 0.2896	Acc: 0.8801	Validation Acc: 0.8841	Cumulative # of training samples: 2.85e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 060	Loss: 0.2782	Acc: 0.8844	Validation Acc: 0.8826	Cumulative # of training samples: 3.00e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 063	Loss: 0.2752	Acc: 0.8860	Validation Acc: 0.8855	Cumulative # of training samples: 3.15e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 066	Loss: 0.2738	Acc: 0.8866	Validation Acc: 0.8860	Cumulative # of training samples: 3.30e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 069	Loss: 0.2738	Acc: 0.8844	Validation Acc: 0.8879	Cumulative # of training samples: 3.45e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 072	Loss: 0.2654	Acc: 0.8884	Validation Acc: 0.8887	Cumulative # of training samples: 3.60e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 075	Loss: 0.2596	Acc: 0.8923	Validation Acc: 0.8900	Cumulative # of training samples: 3.75e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 078	Loss: 0.2572	Acc: 0.8905	Validation Acc: 0.8921	Cumulative # of training samples: 3.90e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 081	Loss: 0.2500	Acc: 0.8946	Validation Acc: 0.8941	Cumulative # of training samples: 4.05e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 084	Loss: 0.2447	Acc: 0.8968	Validation Acc: 0.8964	Cumulative # of training samples: 4.20e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 087	Loss: 0.2442	Acc: 0.8965	Validation Acc: 0.8926	Cumulative # of training samples: 4.35e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 090	Loss: 0.2478	Acc: 0.8936	Validation Acc: 0.8961	Cumulative # of training samples: 4.50e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 093	Loss: 0.2395	Acc: 0.8975	Validation Acc: 0.8949	Cumulative # of training samples: 4.65e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 096	Loss: 0.2376	Acc: 0.9010	Validation Acc: 0.8972	Cumulative # of training samples: 4.80e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 099	Loss: 0.2311	Acc: 0.9012	Validation Acc: 0.9004	Cumulative # of training samples: 4.95e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 102	Loss: 0.2275	Acc: 0.9032	Validation Acc: 0.9020	Cumulative # of training samples: 5.10e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 105	Loss: 0.2288	Acc: 0.9019	Validation Acc: 0.9018	Cumulative # of training samples: 5.25e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 108	Loss: 0.2213	Acc: 0.9037	Validation Acc: 0.8998	Cumulative # of training samples: 5.40e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 111	Loss: 0.2212	Acc: 0.9030	Validation Acc: 0.9032	Cumulative # of training samples: 5.55e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 114	Loss: 0.2182	Acc: 0.9062	Validation Acc: 0.9040	Cumulative # of training samples: 5.70e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 117	Loss: 0.2141	Acc: 0.9069	Validation Acc: 0.9033	Cumulative # of training samples: 5.85e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 120	Loss: 0.2133	Acc: 0.9060	Validation Acc: 0.9068	Cumulative # of training samples: 6.00e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 123	Loss: 0.2081	Acc: 0.9092	Validation Acc: 0.9088	Cumulative # of training samples: 6.15e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 126	Loss: 0.2030	Acc: 0.9116	Validation Acc: 0.9102	Cumulative # of training samples: 6.30e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 129	Loss: 0.1996	Acc: 0.9132	Validation Acc: 0.9091	Cumulative # of training samples: 6.45e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 132	Loss: 0.1995	Acc: 0.9132	Validation Acc: 0.9106	Cumulative # of training samples: 6.60e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 135	Loss: 0.1965	Acc: 0.9132	Validation Acc: 0.9123	Cumulative # of training samples: 6.75e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 138	Loss: 0.1964	Acc: 0.9143	Validation Acc: 0.9064	Cumulative # of training samples: 6.90e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 141	Loss: 0.1944	Acc: 0.9140	Validation Acc: 0.9138	Cumulative # of training samples: 7.05e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 144	Loss: 0.1933	Acc: 0.9131	Validation Acc: 0.9152	Cumulative # of training samples: 7.20e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 147	Loss: 0.1934	Acc: 0.9168	Validation Acc: 0.9148	Cumulative # of training samples: 7.35e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 150	Loss: 0.1828	Acc: 0.9197	Validation Acc: 0.9178	Cumulative # of training samples: 7.50e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 153	Loss: 0.1771	Acc: 0.9209	Validation Acc: 0.9176	Cumulative # of training samples: 7.65e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 156	Loss: 0.1800	Acc: 0.9199	Validation Acc: 0.9176	Cumulative # of training samples: 7.80e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 159	Loss: 0.1791	Acc: 0.9204	Validation Acc: 0.9206	Cumulative # of training samples: 7.95e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 162	Loss: 0.1732	Acc: 0.9227	Validation Acc: 0.9197	Cumulative # of training samples: 8.10e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 165	Loss: 0.1717	Acc: 0.9236	Validation Acc: 0.9197	Cumulative # of training samples: 8.25e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 168	Loss: 0.1698	Acc: 0.9244	Validation Acc: 0.9205	Cumulative # of training samples: 8.40e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 171	Loss: 0.1726	Acc: 0.9237	Validation Acc: 0.9241	Cumulative # of training samples: 8.55e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 174	Loss: 0.1659	Acc: 0.9255	Validation Acc: 0.9230	Cumulative # of training samples: 8.70e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 177	Loss: 0.1658	Acc: 0.9277	Validation Acc: 0.9226	Cumulative # of training samples: 8.85e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 180	Loss: 0.1674	Acc: 0.9251	Validation Acc: 0.9242	Cumulative # of training samples: 9.00e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 183	Loss: 0.1653	Acc: 0.9264	Validation Acc: 0.9253	Cumulative # of training samples: 9.15e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 186	Loss: 0.1600	Acc: 0.9285	Validation Acc: 0.9263	Cumulative # of training samples: 9.30e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 189	Loss: 0.1569	Acc: 0.9313	Validation Acc: 0.9266	Cumulative # of training samples: 9.45e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 192	Loss: 0.1521	Acc: 0.9341	Validation Acc: 0.9237	Cumulative # of training samples: 9.60e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 195	Loss: 0.1573	Acc: 0.9308	Validation Acc: 0.9268	Cumulative # of training samples: 9.75e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 198	Loss: 0.1532	Acc: 0.9324	Validation Acc: 0.9281	Cumulative # of training samples: 9.90e+06
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 201	Loss: 0.1492	Acc: 0.9347	Validation Acc: 0.9260	Cumulative # of training samples: 1.00e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 204	Loss: 0.1546	Acc: 0.9327	Validation Acc: 0.9287	Cumulative # of training samples: 1.02e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 207	Loss: 0.1574	Acc: 0.9300	Validation Acc: 0.9292	Cumulative # of training samples: 1.04e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 210	Loss: 0.1560	Acc: 0.9317	Validation Acc: 0.9302	Cumulative # of training samples: 1.05e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 213	Loss: 0.1491	Acc: 0.9339	Validation Acc: 0.9320	Cumulative # of training samples: 1.06e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 216	Loss: 0.1473	Acc: 0.9343	Validation Acc: 0.9301	Cumulative # of training samples: 1.08e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 219	Loss: 0.1504	Acc: 0.9341	Validation Acc: 0.9307	Cumulative # of training samples: 1.10e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 222	Loss: 0.1494	Acc: 0.9338	Validation Acc: 0.9317	Cumulative # of training samples: 1.11e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 225	Loss: 0.1495	Acc: 0.9341	Validation Acc: 0.9299	Cumulative # of training samples: 1.12e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 228	Loss: 0.1457	Acc: 0.9365	Validation Acc: 0.9295	Cumulative # of training samples: 1.14e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 231	Loss: 0.1460	Acc: 0.9370	Validation Acc: 0.9329	Cumulative # of training samples: 1.16e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 234	Loss: 0.1448	Acc: 0.9361	Validation Acc: 0.9328	Cumulative # of training samples: 1.17e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 237	Loss: 0.1448	Acc: 0.9368	Validation Acc: 0.9340	Cumulative # of training samples: 1.18e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 240	Loss: 0.1458	Acc: 0.9349	Validation Acc: 0.9323	Cumulative # of training samples: 1.20e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 243	Loss: 0.1398	Acc: 0.9384	Validation Acc: 0.9336	Cumulative # of training samples: 1.22e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 246	Loss: 0.1408	Acc: 0.9385	Validation Acc: 0.9307	Cumulative # of training samples: 1.23e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 249	Loss: 0.1442	Acc: 0.9364	Validation Acc: 0.9330	Cumulative # of training samples: 1.24e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Changing learning rate from 0.0001 to 1e-05
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 252	Loss: 0.1366	Acc: 0.9415	Validation Acc: 0.9361	Cumulative # of training samples: 1.26e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 255	Loss: 0.1376	Acc: 0.9408	Validation Acc: 0.9369	Cumulative # of training samples: 1.28e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 258	Loss: 0.1381	Acc: 0.9404	Validation Acc: 0.9374	Cumulative # of training samples: 1.29e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 261	Loss: 0.1349	Acc: 0.9411	Validation Acc: 0.9376	Cumulative # of training samples: 1.30e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 264	Loss: 0.1344	Acc: 0.9416	Validation Acc: 0.9378	Cumulative # of training samples: 1.32e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 267	Loss: 0.1354	Acc: 0.9418	Validation Acc: 0.9381	Cumulative # of training samples: 1.34e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 270	Loss: 0.1355	Acc: 0.9428	Validation Acc: 0.9389	Cumulative # of training samples: 1.35e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 273	Loss: 0.1305	Acc: 0.9436	Validation Acc: 0.9386	Cumulative # of training samples: 1.36e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 276	Loss: 0.1303	Acc: 0.9436	Validation Acc: 0.9389	Cumulative # of training samples: 1.38e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 279	Loss: 0.1333	Acc: 0.9418	Validation Acc: 0.9392	Cumulative # of training samples: 1.40e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 282	Loss: 0.1325	Acc: 0.9410	Validation Acc: 0.9376	Cumulative # of training samples: 1.41e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 285	Loss: 0.1333	Acc: 0.9406	Validation Acc: 0.9392	Cumulative # of training samples: 1.42e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 288	Loss: 0.1334	Acc: 0.9421	Validation Acc: 0.9393	Cumulative # of training samples: 1.44e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 291	Loss: 0.1304	Acc: 0.9430	Validation Acc: 0.9398	Cumulative # of training samples: 1.46e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 294	Loss: 0.1328	Acc: 0.9423	Validation Acc: 0.9394	Cumulative # of training samples: 1.47e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 297	Loss: 0.1314	Acc: 0.9431	Validation Acc: 0.9398	Cumulative # of training samples: 1.48e+07
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+*** Un tensor in GPU occupa 96000000 MB. ***
+Iteration: 300	Loss: 0.1295	Acc: 0.9435	Validation Acc: 0.9401	Cumulative # of training samples: 1.50e+07
+Completed all training iterations!
+Saving final model and history to file.
+
+==== BENCHMARKING ====
+Training setup: 0.029328873148187995
+Sampling and Graphing: 1855.5758013869636
+Fitting: 992.910122082103
+	Sum: 2848.515252342215
+
+==== TESTING ====
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+non-trivial syndromes: 5, trivial syndromes: 5
+correct, non-trivial predictions: 5
+Test accuracy: 1.0, Error rate: 0.001
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+non-trivial syndromes: 8, trivial syndromes: 2
+correct, non-trivial predictions: 7
+Test accuracy: 0.9, Error rate: 0.002
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+non-trivial syndromes: 8, trivial syndromes: 2
+correct, non-trivial predictions: 8
+Test accuracy: 1.0, Error rate: 0.003
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+non-trivial syndromes: 10, trivial syndromes: 0
+correct, non-trivial predictions: 10
+Test accuracy: 1.0, Error rate: 0.004
+*** Un grafo nel buffer in CPU RAM occupa 96000000 MB. ***
+non-trivial syndromes: 10, trivial syndromes: 0
+correct, non-trivial predictions: 10
+Test accuracy: 1.0, Error rate: 0.005

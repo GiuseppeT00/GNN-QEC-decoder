@@ -1,0 +1,80 @@
+========== STARTING TESTING CODE SIZE 5 , REPETITIONS 3 , ERROR RATE 0.003 , TESTING SAMPLES 5000000 ==========
+===== Starting data generation =====
+===== Correctly generated 5000000 test samples =====
+== Trivial predictions 1026458 ==
+===== Starting decoding data with MWPM =====
+===== Finished decoding data with MWPM (Accuracy 0.9981198, Elapsed time 29.22200083732605) =====
+===== Starting decoding data with GNN decoder =====
+== Generating buffer and creating DataLoader object ==
+== Task completed, starting testing ==
+===== Finished decoding data with GNN (Accuracy 0.99857, Elapsed time 36.43516206741333) =====
+===== Benchmark =====
+=== MWPM: Accuracy 0.9981198 , Logical failure rate 0.0018801999999999985 , Average elapsed time 5.84440016746521e-06) , Total elapsed time 29.22200083732605 ===
+=== GNN: Accuracy 0.99857, Logical failure rate 0.0014300000000000423 , Average elapsed time 7.287032413482666e-06) , Total elapsed time 36.43516206741333 ===
+
+
+
+========== STARTING TESTING CODE SIZE 5 , REPETITIONS 5 , ERROR RATE 0.003 , TESTING SAMPLES 5000000 ==========
+===== Starting data generation =====
+===== Correctly generated 5000000 test samples =====
+== Trivial predictions 379222 ==
+===== Starting decoding data with MWPM =====
+===== Finished decoding data with MWPM (Accuracy 0.996628, Elapsed time 38.26450276374817) =====
+===== Starting decoding data with GNN decoder =====
+== Generating buffer and creating DataLoader object ==
+== Task completed, starting testing ==
+===== Finished decoding data with GNN (Accuracy 0.9975598, Elapsed time 22.27648401260376) =====
+===== Benchmark =====
+=== MWPM: Accuracy 0.996628 , Logical failure rate 0.0033720000000000416 , Average elapsed time 7.652900552749633e-06) , Total elapsed time 38.26450276374817 ===
+=== GNN: Accuracy 0.9975598, Logical failure rate 0.0024402000000000035 , Average elapsed time 4.455296802520752e-06) , Total elapsed time 22.27648401260376 ===
+
+
+
+========== STARTING TESTING CODE SIZE 5 , REPETITIONS 7 , ERROR RATE 0.003 , TESTING SAMPLES 5000000 ==========
+===== Starting data generation =====
+===== Correctly generated 5000000 test samples =====
+== Trivial predictions 140228 ==
+===== Starting decoding data with MWPM =====
+===== Finished decoding data with MWPM (Accuracy 0.9952662, Elapsed time 44.40714168548584) =====
+===== Starting decoding data with GNN decoder =====
+== Generating buffer and creating DataLoader object ==
+== Task completed, starting testing ==
+===== Finished decoding data with GNN (Accuracy 0.9965374, Elapsed time 30.78725004196167) =====
+===== Benchmark =====
+=== MWPM: Accuracy 0.9952662 , Logical failure rate 0.00473380000000001 , Average elapsed time 8.881428337097167e-06) , Total elapsed time 44.40714168548584 ===
+=== GNN: Accuracy 0.9965374, Logical failure rate 0.0034625999999999824 , Average elapsed time 6.157450008392334e-06) , Total elapsed time 30.78725004196167 ===
+
+
+
+========== STARTING TESTING CODE SIZE 5 , REPETITIONS 9 , ERROR RATE 0.003 , TESTING SAMPLES 5000000 ==========
+===== Starting data generation =====
+===== Correctly generated 5000000 test samples =====
+== Trivial predictions 51585 ==
+===== Starting decoding data with MWPM =====
+===== Finished decoding data with MWPM (Accuracy 0.993801, Elapsed time 49.613370418548584) =====
+===== Starting decoding data with GNN decoder =====
+== Generating buffer and creating DataLoader object ==
+== Task completed, starting testing ==
+===== Finished decoding data with GNN (Accuracy 0.9948508, Elapsed time 38.787283420562744) =====
+===== Benchmark =====
+=== MWPM: Accuracy 0.993801 , Logical failure rate 0.0061989999999999545 , Average elapsed time 9.922674083709716e-06) , Total elapsed time 49.613370418548584 ===
+=== GNN: Accuracy 0.9948508, Logical failure rate 0.005149199999999965 , Average elapsed time 7.75745668411255e-06) , Total elapsed time 38.787283420562744 ===
+
+
+
+========== STARTING TESTING CODE SIZE 5 , REPETITIONS 11 , ERROR RATE 0.003 , TESTING SAMPLES 5000000 ==========
+===== Starting data generation =====
+===== Correctly generated 5000000 test samples =====
+== Trivial predictions 19489 ==
+===== Starting decoding data with MWPM =====
+===== Finished decoding data with MWPM (Accuracy 0.9923444, Elapsed time 54.97825217247009) =====
+===== Starting decoding data with GNN decoder =====
+== Generating buffer and creating DataLoader object ==
+== Task completed, starting testing ==
+===== Finished decoding data with GNN (Accuracy 0.993426, Elapsed time 46.7517626285553) =====
+===== Benchmark =====
+=== MWPM: Accuracy 0.9923444 , Logical failure rate 0.007655599999999985 , Average elapsed time 1.099565043449402e-05) , Total elapsed time 54.97825217247009 ===
+=== GNN: Accuracy 0.993426, Logical failure rate 0.006573999999999969 , Average elapsed time 9.35035252571106e-06) , Total elapsed time 46.7517626285553 ===
+
+
+

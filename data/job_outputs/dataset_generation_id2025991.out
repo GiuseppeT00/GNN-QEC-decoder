@@ -1,0 +1,20 @@
+=== code_size=5 repetitions=3 ===
+Generation ended in 106.35880827903748s.
+Conversion to Data object ended in 360.3155777454376s.
+Saved in 98.66856098175049s.
+=== code_size=5 repetitions=5 ===
+Generation ended in 160.27795720100403s.
+Conversion to Data object ended in 526.8633046150208s.
+Saved in 136.59268712997437s.
+=== code_size=5 repetitions=7 ===
+Generation ended in 204.38154911994934s.
+Conversion to Data object ended in 911.2543749809265s.
+Saved in 205.32202339172363s.
+=== code_size=5 repetitions=9 ===
+Generation ended in 246.52391695976257s.
+Conversion to Data object ended in 1227.550134897232s.
+Saved in 279.17129278182983s.
+=== code_size=5 repetitions=11 ===
+Generation ended in 287.557742357254s.
+Conversion to Data object ended in 1675.6373047828674s.
+Saved in 340.87712502479553s.

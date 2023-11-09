@@ -1,0 +1,9 @@
+=== code_size=7 repetitions=1 ===
+Generation ended in 272.4600303173065s.
+Conversion to Data object ended in 843.576048374176s.
+Saved in 2107.815029859543s.
+=== code_size=9 repetitions=1 ===
+Generation ended in 451.11068201065063s.
+Conversion to Data object ended in 1741.5421426296234s.
+Saved in 3552.801449775696s.
+slurmstepd: error: *** JOB 2025883 ON wn20 CANCELLED AT 2023-09-22T22:51:29 ***

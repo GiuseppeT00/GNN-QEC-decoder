@@ -1,0 +1,14 @@
+gia fatto
+gia fatto
+=== code_size=5 repetitions=7 ===
+Generation ended in 198.66720366477966s.
+Conversion to Data object ended in 440.42852997779846s.
+Saved in 1619.1839334964752s.
+=== code_size=5 repetitions=9 ===
+Generation ended in 238.78922128677368s.
+Conversion to Data object ended in 704.6327369213104s.
+Saved in 2621.522525072098s.
+=== code_size=5 repetitions=11 ===
+Generation ended in 357.1559512615204s.
+/var/spool/slurm/slurmd/job2025769/slurm_script: line 21: 32775 Killed                  python generate_dataset.py
+slurmstepd: error: Detected 1 oom-kill event(s) in step 2025769.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

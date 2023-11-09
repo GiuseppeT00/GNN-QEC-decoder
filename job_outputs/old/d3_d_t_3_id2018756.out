@@ -1,0 +1,18 @@
+
+==== DECODER PARAMETERS ====
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/', 'save_prefix': 'd5_d_t_5_id2018756', 'resumed_training_file_name': None}
+Code size: 5
+
+Repetitions: 5
+
+Training error rate: [0.001, 0.002, 0.003, 0.004, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 300 iteration(s).
+Buffer has 5000000 samples, replacing 1250000 samples with each iteration.
+Total number of unique samples in this run: 3.80e+08
+/var/spool/slurm/slurmd/job2018756/slurm_script: line 49: 35308 Bus error               python buffer_training.py
+slurmstepd: error: Detected 2 oom-kill event(s) in step 2018756.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

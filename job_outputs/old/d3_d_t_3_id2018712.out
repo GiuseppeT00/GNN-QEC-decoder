@@ -1,0 +1,136 @@
+
+==== DECODER PARAMETERS ====
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/', 'save_prefix': 'd3_d_t_3_id2018712', 'resumed_training_file_name': None}
+Code size: 5
+
+Repetitions: 5
+
+Training error rate: [0.001, 0.002, 0.003, 0.005]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 48 CPU cores, then moving it to device cuda.
+Starting training with 300 iteration(s).
+Buffer has 40000 samples, replacing 8000 samples with each iteration.
+Total number of unique samples in this run: 2.44e+06
+Iteration: 001	Loss: 1.8442	Acc: 0.8035	Validation Acc: 0.8520	Cumulative # of training samples: 4.00e+04
+Iteration: 003	Loss: 0.4996	Acc: 0.8386	Validation Acc: 0.8565	Cumulative # of training samples: 1.20e+05
+Iteration: 006	Loss: 0.4042	Acc: 0.8472	Validation Acc: 0.8645	Cumulative # of training samples: 2.40e+05
+Iteration: 009	Loss: 0.3496	Acc: 0.8544	Validation Acc: 0.8498	Cumulative # of training samples: 3.60e+05
+Iteration: 012	Loss: 0.3578	Acc: 0.8655	Validation Acc: 0.8850	Cumulative # of training samples: 4.80e+05
+Iteration: 015	Loss: 0.3044	Acc: 0.8813	Validation Acc: 0.8902	Cumulative # of training samples: 6.00e+05
+Iteration: 018	Loss: 0.2995	Acc: 0.8808	Validation Acc: 0.8942	Cumulative # of training samples: 7.20e+05
+Iteration: 021	Loss: 0.2909	Acc: 0.8829	Validation Acc: 0.8960	Cumulative # of training samples: 8.40e+05
+Iteration: 024	Loss: 0.2948	Acc: 0.8855	Validation Acc: 0.8932	Cumulative # of training samples: 9.60e+05
+Iteration: 027	Loss: 0.2884	Acc: 0.8851	Validation Acc: 0.8978	Cumulative # of training samples: 1.08e+06
+Iteration: 030	Loss: 0.2905	Acc: 0.8822	Validation Acc: 0.8905	Cumulative # of training samples: 1.20e+06
+Iteration: 033	Loss: 0.2812	Acc: 0.8879	Validation Acc: 0.8975	Cumulative # of training samples: 1.32e+06
+Iteration: 036	Loss: 0.2790	Acc: 0.8883	Validation Acc: 0.8945	Cumulative # of training samples: 1.44e+06
+Iteration: 039	Loss: 0.2754	Acc: 0.8897	Validation Acc: 0.8990	Cumulative # of training samples: 1.56e+06
+Iteration: 042	Loss: 0.2946	Acc: 0.8871	Validation Acc: 0.9040	Cumulative # of training samples: 1.68e+06
+Iteration: 045	Loss: 0.2806	Acc: 0.8855	Validation Acc: 0.9005	Cumulative # of training samples: 1.80e+06
+Iteration: 048	Loss: 0.2746	Acc: 0.8899	Validation Acc: 0.8990	Cumulative # of training samples: 1.92e+06
+Iteration: 051	Loss: 0.2651	Acc: 0.8931	Validation Acc: 0.9022	Cumulative # of training samples: 2.04e+06
+Iteration: 054	Loss: 0.2694	Acc: 0.8918	Validation Acc: 0.9005	Cumulative # of training samples: 2.16e+06
+Iteration: 057	Loss: 0.2637	Acc: 0.8928	Validation Acc: 0.9010	Cumulative # of training samples: 2.28e+06
+Iteration: 060	Loss: 0.2616	Acc: 0.8936	Validation Acc: 0.9020	Cumulative # of training samples: 2.40e+06
+Iteration: 063	Loss: 0.2608	Acc: 0.8954	Validation Acc: 0.9040	Cumulative # of training samples: 2.52e+06
+Iteration: 066	Loss: 0.2591	Acc: 0.8948	Validation Acc: 0.9005	Cumulative # of training samples: 2.64e+06
+Iteration: 069	Loss: 0.2653	Acc: 0.8915	Validation Acc: 0.9025	Cumulative # of training samples: 2.76e+06
+Iteration: 072	Loss: 0.2683	Acc: 0.8909	Validation Acc: 0.9002	Cumulative # of training samples: 2.88e+06
+Iteration: 075	Loss: 0.2585	Acc: 0.8949	Validation Acc: 0.9058	Cumulative # of training samples: 3.00e+06
+Iteration: 078	Loss: 0.2607	Acc: 0.8953	Validation Acc: 0.9077	Cumulative # of training samples: 3.12e+06
+Iteration: 081	Loss: 0.2621	Acc: 0.8945	Validation Acc: 0.9030	Cumulative # of training samples: 3.24e+06
+Iteration: 084	Loss: 0.2562	Acc: 0.8961	Validation Acc: 0.9042	Cumulative # of training samples: 3.36e+06
+Iteration: 087	Loss: 0.2617	Acc: 0.8930	Validation Acc: 0.9042	Cumulative # of training samples: 3.48e+06
+Iteration: 090	Loss: 0.2591	Acc: 0.8937	Validation Acc: 0.9025	Cumulative # of training samples: 3.60e+06
+Iteration: 093	Loss: 0.2599	Acc: 0.8950	Validation Acc: 0.9002	Cumulative # of training samples: 3.72e+06
+Iteration: 096	Loss: 0.2507	Acc: 0.8972	Validation Acc: 0.9032	Cumulative # of training samples: 3.84e+06
+Iteration: 099	Loss: 0.2577	Acc: 0.8926	Validation Acc: 0.9058	Cumulative # of training samples: 3.96e+06
+Iteration: 102	Loss: 0.2569	Acc: 0.8957	Validation Acc: 0.9002	Cumulative # of training samples: 4.08e+06
+Iteration: 105	Loss: 0.2465	Acc: 0.8993	Validation Acc: 0.9035	Cumulative # of training samples: 4.20e+06
+Iteration: 108	Loss: 0.2489	Acc: 0.8989	Validation Acc: 0.9048	Cumulative # of training samples: 4.32e+06
+Iteration: 111	Loss: 0.2428	Acc: 0.8989	Validation Acc: 0.9005	Cumulative # of training samples: 4.44e+06
+Iteration: 114	Loss: 0.2386	Acc: 0.9019	Validation Acc: 0.8962	Cumulative # of training samples: 4.56e+06
+Iteration: 117	Loss: 0.2379	Acc: 0.9031	Validation Acc: 0.9062	Cumulative # of training samples: 4.68e+06
+Iteration: 120	Loss: 0.2302	Acc: 0.9044	Validation Acc: 0.9042	Cumulative # of training samples: 4.80e+06
+Iteration: 123	Loss: 0.2340	Acc: 0.9043	Validation Acc: 0.9045	Cumulative # of training samples: 4.92e+06
+Iteration: 126	Loss: 0.2296	Acc: 0.9055	Validation Acc: 0.9052	Cumulative # of training samples: 5.04e+06
+Iteration: 129	Loss: 0.2270	Acc: 0.9058	Validation Acc: 0.9085	Cumulative # of training samples: 5.16e+06
+Iteration: 132	Loss: 0.2304	Acc: 0.9031	Validation Acc: 0.9073	Cumulative # of training samples: 5.28e+06
+Iteration: 135	Loss: 0.2262	Acc: 0.9068	Validation Acc: 0.9097	Cumulative # of training samples: 5.40e+06
+Iteration: 138	Loss: 0.2190	Acc: 0.9085	Validation Acc: 0.9113	Cumulative # of training samples: 5.52e+06
+Iteration: 141	Loss: 0.2184	Acc: 0.9098	Validation Acc: 0.9123	Cumulative # of training samples: 5.64e+06
+Iteration: 144	Loss: 0.2176	Acc: 0.9081	Validation Acc: 0.9097	Cumulative # of training samples: 5.76e+06
+Iteration: 147	Loss: 0.2126	Acc: 0.9086	Validation Acc: 0.9150	Cumulative # of training samples: 5.88e+06
+Iteration: 150	Loss: 0.2152	Acc: 0.9091	Validation Acc: 0.9115	Cumulative # of training samples: 6.00e+06
+Iteration: 153	Loss: 0.2116	Acc: 0.9106	Validation Acc: 0.9153	Cumulative # of training samples: 6.12e+06
+Iteration: 156	Loss: 0.2030	Acc: 0.9133	Validation Acc: 0.9153	Cumulative # of training samples: 6.24e+06
+Iteration: 159	Loss: 0.2024	Acc: 0.9133	Validation Acc: 0.9150	Cumulative # of training samples: 6.36e+06
+Iteration: 162	Loss: 0.2017	Acc: 0.9135	Validation Acc: 0.9153	Cumulative # of training samples: 6.48e+06
+Iteration: 165	Loss: 0.1999	Acc: 0.9138	Validation Acc: 0.9165	Cumulative # of training samples: 6.60e+06
+Iteration: 168	Loss: 0.1957	Acc: 0.9176	Validation Acc: 0.9150	Cumulative # of training samples: 6.72e+06
+Iteration: 171	Loss: 0.1942	Acc: 0.9176	Validation Acc: 0.9140	Cumulative # of training samples: 6.84e+06
+Iteration: 174	Loss: 0.1911	Acc: 0.9190	Validation Acc: 0.9183	Cumulative # of training samples: 6.96e+06
+Iteration: 177	Loss: 0.1911	Acc: 0.9181	Validation Acc: 0.9175	Cumulative # of training samples: 7.08e+06
+Iteration: 180	Loss: 0.1868	Acc: 0.9183	Validation Acc: 0.9180	Cumulative # of training samples: 7.20e+06
+Iteration: 183	Loss: 0.1890	Acc: 0.9163	Validation Acc: 0.9157	Cumulative # of training samples: 7.32e+06
+Iteration: 186	Loss: 0.1904	Acc: 0.9169	Validation Acc: 0.9197	Cumulative # of training samples: 7.44e+06
+Iteration: 189	Loss: 0.1904	Acc: 0.9177	Validation Acc: 0.9175	Cumulative # of training samples: 7.56e+06
+Iteration: 192	Loss: 0.1793	Acc: 0.9223	Validation Acc: 0.9205	Cumulative # of training samples: 7.68e+06
+Iteration: 195	Loss: 0.1742	Acc: 0.9255	Validation Acc: 0.9190	Cumulative # of training samples: 7.80e+06
+Iteration: 198	Loss: 0.1767	Acc: 0.9235	Validation Acc: 0.9227	Cumulative # of training samples: 7.92e+06
+Iteration: 201	Loss: 0.1770	Acc: 0.9223	Validation Acc: 0.9243	Cumulative # of training samples: 8.04e+06
+Iteration: 204	Loss: 0.1691	Acc: 0.9263	Validation Acc: 0.9193	Cumulative # of training samples: 8.16e+06
+Iteration: 207	Loss: 0.1709	Acc: 0.9250	Validation Acc: 0.9223	Cumulative # of training samples: 8.28e+06
+Iteration: 210	Loss: 0.1698	Acc: 0.9264	Validation Acc: 0.9213	Cumulative # of training samples: 8.40e+06
+Iteration: 213	Loss: 0.1687	Acc: 0.9275	Validation Acc: 0.9263	Cumulative # of training samples: 8.52e+06
+Iteration: 216	Loss: 0.1718	Acc: 0.9243	Validation Acc: 0.9240	Cumulative # of training samples: 8.64e+06
+Iteration: 219	Loss: 0.1643	Acc: 0.9270	Validation Acc: 0.9235	Cumulative # of training samples: 8.76e+06
+Iteration: 222	Loss: 0.1646	Acc: 0.9277	Validation Acc: 0.9260	Cumulative # of training samples: 8.88e+06
+Iteration: 225	Loss: 0.1639	Acc: 0.9293	Validation Acc: 0.9313	Cumulative # of training samples: 9.00e+06
+Iteration: 228	Loss: 0.1623	Acc: 0.9296	Validation Acc: 0.9280	Cumulative # of training samples: 9.12e+06
+Iteration: 231	Loss: 0.1606	Acc: 0.9283	Validation Acc: 0.9243	Cumulative # of training samples: 9.24e+06
+Iteration: 234	Loss: 0.1565	Acc: 0.9315	Validation Acc: 0.9267	Cumulative # of training samples: 9.36e+06
+Iteration: 237	Loss: 0.1611	Acc: 0.9285	Validation Acc: 0.9265	Cumulative # of training samples: 9.48e+06
+Iteration: 240	Loss: 0.1571	Acc: 0.9296	Validation Acc: 0.9295	Cumulative # of training samples: 9.60e+06
+Iteration: 243	Loss: 0.1529	Acc: 0.9316	Validation Acc: 0.9280	Cumulative # of training samples: 9.72e+06
+Iteration: 246	Loss: 0.1528	Acc: 0.9315	Validation Acc: 0.9290	Cumulative # of training samples: 9.84e+06
+Iteration: 249	Loss: 0.1482	Acc: 0.9343	Validation Acc: 0.9303	Cumulative # of training samples: 9.96e+06
+Iteration: 252	Loss: 0.1461	Acc: 0.9349	Validation Acc: 0.9323	Cumulative # of training samples: 1.01e+07
+Iteration: 255	Loss: 0.1436	Acc: 0.9366	Validation Acc: 0.9300	Cumulative # of training samples: 1.02e+07
+Iteration: 258	Loss: 0.1441	Acc: 0.9362	Validation Acc: 0.9307	Cumulative # of training samples: 1.03e+07
+Iteration: 261	Loss: 0.1463	Acc: 0.9345	Validation Acc: 0.9317	Cumulative # of training samples: 1.04e+07
+Iteration: 264	Loss: 0.1473	Acc: 0.9345	Validation Acc: 0.9310	Cumulative # of training samples: 1.06e+07
+Iteration: 267	Loss: 0.1449	Acc: 0.9362	Validation Acc: 0.9277	Cumulative # of training samples: 1.07e+07
+Iteration: 270	Loss: 0.1445	Acc: 0.9361	Validation Acc: 0.9315	Cumulative # of training samples: 1.08e+07
+Iteration: 273	Loss: 0.1471	Acc: 0.9353	Validation Acc: 0.9365	Cumulative # of training samples: 1.09e+07
+Iteration: 276	Loss: 0.1433	Acc: 0.9366	Validation Acc: 0.9335	Cumulative # of training samples: 1.10e+07
+Iteration: 279	Loss: 0.1394	Acc: 0.9385	Validation Acc: 0.9327	Cumulative # of training samples: 1.12e+07
+Iteration: 282	Loss: 0.1362	Acc: 0.9401	Validation Acc: 0.9375	Cumulative # of training samples: 1.13e+07
+Iteration: 285	Loss: 0.1341	Acc: 0.9410	Validation Acc: 0.9350	Cumulative # of training samples: 1.14e+07
+Iteration: 288	Loss: 0.1353	Acc: 0.9411	Validation Acc: 0.9367	Cumulative # of training samples: 1.15e+07
+Iteration: 291	Loss: 0.1340	Acc: 0.9408	Validation Acc: 0.9377	Cumulative # of training samples: 1.16e+07
+Iteration: 294	Loss: 0.1360	Acc: 0.9391	Validation Acc: 0.9377	Cumulative # of training samples: 1.18e+07
+Iteration: 297	Loss: 0.1346	Acc: 0.9412	Validation Acc: 0.9377	Cumulative # of training samples: 1.19e+07
+Iteration: 300	Loss: 0.1326	Acc: 0.9425	Validation Acc: 0.9370	Cumulative # of training samples: 1.20e+07
+Completed all training iterations!
+Saving final model and history to file.
+
+==== BENCHMARKING ====
+Training setup: 0.1584389579948038
+Sampling and Graphing: 1654.893066426739
+Fitting: 777.8792317563202
+	Sum: 2432.930737141054
+
+==== TESTING ====
+non-trivial syndromes: 0, trivial syndromes: 1
+correct, non-trivial predictions: 0
+Test accuracy: 1.0, Error rate: 0.001
+non-trivial syndromes: 1, trivial syndromes: 0
+correct, non-trivial predictions: 1
+Test accuracy: 1.0, Error rate: 0.002
+non-trivial syndromes: 1, trivial syndromes: 0
+correct, non-trivial predictions: 1
+Test accuracy: 1.0, Error rate: 0.003

@@ -1,0 +1,232 @@
+
+==== DECODER PARAMETERS ====
+Moving model to cuda... Done.
+{'model': {'class': <class 'src.gnn_models.GNN_7'>, 'num_node_features': 5, 'num_classes': 1, 'loss': BCEWithLogitsLoss(), 'initial_learning_rate': 0.0001, 'manual_seed': 12345}, 'graph': {'m_nearest_nodes': 6, 'num_node_features': 5, 'power': 2.0}, 'cuda': True, 'silent': False, 'save_path': '/hpc/home/giuseppe.trimigno/GNN_decoder/results/perfect_stabilizers/d7', 'save_prefix': 'd7_d_t_1_rep', 'resumed_training_file_name': None}
+Code size: 7
+
+Repetitions: 1
+
+Training error rate: [0.01, 0.05, 0.1, 0.15]
+
+
+==== TRAINING ====
+Will save final results to file after training.
+Generating data with 4 CPU cores, then moving it to device cuda.
+Starting training with 100 iteration(s).
+Buffer has 4000000 samples, replacing 1000000 samples with each iteration.
+Total number of unique samples in this run: 1.04e+08
+Data correctly red. Elapsed time: 1970.9056375026703s
+******************************
+len(training_data)=4000000 ; len(validation_data)=40000
+******************************
+Sampling ended in 71.71598386764526s. Conversion to Data object ended in 203.6176552772522s.
+Iteration: 001	Loss: 0.6070	Acc: 0.5966	Validation Acc: 0.6165	Validation Loss: 0.5665	Cumulative # of training samples: 4.00e+06	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch1. Total time for epoch: 630.6569445133209s.
+Sampling ended in 69.68949007987976s. Conversion to Data object ended in 204.96374893188477s.
+Iteration: 002	Loss: 0.5588	Acc: 0.6197	Validation Acc: 0.6240	Validation Loss: 0.5505	Cumulative # of training samples: 8.00e+06	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch2. Total time for epoch: 612.5893316268921s.
+Sampling ended in 67.54223990440369s. Conversion to Data object ended in 202.06104445457458s.
+Iteration: 003	Loss: 0.5481	Acc: 0.6265	Validation Acc: 0.6309	Validation Loss: 0.5446	Cumulative # of training samples: 1.20e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch3. Total time for epoch: 609.3066580295563s.
+Sampling ended in 65.44886636734009s. Conversion to Data object ended in 203.148832321167s.
+Iteration: 004	Loss: 0.5427	Acc: 0.6298	Validation Acc: 0.6293	Validation Loss: 0.5403	Cumulative # of training samples: 1.60e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch4. Total time for epoch: 613.9768760204315s.
+Sampling ended in 65.72548651695251s. Conversion to Data object ended in 204.19533276557922s.
+Iteration: 005	Loss: 0.5387	Acc: 0.6324	Validation Acc: 0.6331	Validation Loss: 0.5361	Cumulative # of training samples: 2.00e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch5. Total time for epoch: 611.2087159156799s.
+Sampling ended in 65.79265213012695s. Conversion to Data object ended in 203.44817352294922s.
+Iteration: 006	Loss: 0.5359	Acc: 0.6341	Validation Acc: 0.6348	Validation Loss: 0.5353	Cumulative # of training samples: 2.40e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch6. Total time for epoch: 609.5738430023193s.
+Sampling ended in 65.67811369895935s. Conversion to Data object ended in 203.04956436157227s.
+Iteration: 007	Loss: 0.5336	Acc: 0.6359	Validation Acc: 0.6359	Validation Loss: 0.5324	Cumulative # of training samples: 2.80e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch7. Total time for epoch: 609.552252292633s.
+Sampling ended in 65.64398097991943s. Conversion to Data object ended in 203.64888048171997s.
+Iteration: 008	Loss: 0.5319	Acc: 0.6370	Validation Acc: 0.6376	Validation Loss: 0.5307	Cumulative # of training samples: 3.20e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch8. Total time for epoch: 608.9536602497101s.
+Sampling ended in 65.98613047599792s. Conversion to Data object ended in 203.83894085884094s.
+Iteration: 009	Loss: 0.5304	Acc: 0.6379	Validation Acc: 0.6394	Validation Loss: 0.5299	Cumulative # of training samples: 3.60e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch9. Total time for epoch: 607.9547166824341s.
+Sampling ended in 65.75036811828613s. Conversion to Data object ended in 204.22458362579346s.
+Iteration: 010	Loss: 0.5287	Acc: 0.6396	Validation Acc: 0.6404	Validation Loss: 0.5280	Cumulative # of training samples: 4.00e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch10. Total time for epoch: 609.7548587322235s.
+Sampling ended in 65.72441530227661s. Conversion to Data object ended in 208.4547884464264s.
+Iteration: 011	Loss: 0.5275	Acc: 0.6406	Validation Acc: 0.6404	Validation Loss: 0.5277	Cumulative # of training samples: 4.40e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch11. Total time for epoch: 615.4988641738892s.
+Sampling ended in 65.68096232414246s. Conversion to Data object ended in 204.6824173927307s.
+Iteration: 012	Loss: 0.5266	Acc: 0.6415	Validation Acc: 0.6400	Validation Loss: 0.5266	Cumulative # of training samples: 4.80e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch12. Total time for epoch: 609.3278787136078s.
+Sampling ended in 66.05142402648926s. Conversion to Data object ended in 208.604257106781s.
+Iteration: 013	Loss: 0.5258	Acc: 0.6421	Validation Acc: 0.6433	Validation Loss: 0.5253	Cumulative # of training samples: 5.20e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch13. Total time for epoch: 613.9558074474335s.
+Sampling ended in 65.95275592803955s. Conversion to Data object ended in 204.89970207214355s.
+Iteration: 014	Loss: 0.5253	Acc: 0.6428	Validation Acc: 0.6406	Validation Loss: 0.5239	Cumulative # of training samples: 5.60e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch14. Total time for epoch: 609.9919638633728s.
+Sampling ended in 65.81522560119629s. Conversion to Data object ended in 204.90664625167847s.
+Iteration: 015	Loss: 0.5245	Acc: 0.6435	Validation Acc: 0.6442	Validation Loss: 0.5236	Cumulative # of training samples: 6.00e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch15. Total time for epoch: 609.8878753185272s.
+Sampling ended in 65.76267004013062s. Conversion to Data object ended in 203.15076327323914s.
+Iteration: 016	Loss: 0.5239	Acc: 0.6438	Validation Acc: 0.6405	Validation Loss: 0.5236	Cumulative # of training samples: 6.40e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch16. Total time for epoch: 608.4429755210876s.
+Sampling ended in 65.97722101211548s. Conversion to Data object ended in 205.62706851959229s.
+Iteration: 017	Loss: 0.5233	Acc: 0.6446	Validation Acc: 0.6438	Validation Loss: 0.5240	Cumulative # of training samples: 6.80e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch17. Total time for epoch: 609.5720314979553s.
+Sampling ended in 65.78028845787048s. Conversion to Data object ended in 214.7989902496338s.
+Iteration: 018	Loss: 0.5227	Acc: 0.6452	Validation Acc: 0.6400	Validation Loss: 0.5227	Cumulative # of training samples: 7.20e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch18. Total time for epoch: 620.036643743515s.
+Sampling ended in 65.61617469787598s. Conversion to Data object ended in 213.85792136192322s.
+Iteration: 019	Loss: 0.5224	Acc: 0.6459	Validation Acc: 0.6433	Validation Loss: 0.5225	Cumulative # of training samples: 7.60e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch19. Total time for epoch: 617.9013085365295s.
+Sampling ended in 65.87466716766357s. Conversion to Data object ended in 203.91411781311035s.
+Iteration: 020	Loss: 0.5218	Acc: 0.6463	Validation Acc: 0.6430	Validation Loss: 0.5220	Cumulative # of training samples: 8.00e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch20. Total time for epoch: 609.3845748901367s.
+Sampling ended in 66.0550365447998s. Conversion to Data object ended in 214.44782757759094s.
+Iteration: 021	Loss: 0.5215	Acc: 0.6461	Validation Acc: 0.6401	Validation Loss: 0.5236	Cumulative # of training samples: 8.40e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch21. Total time for epoch: 618.6835579872131s.
+Sampling ended in 65.8078281879425s. Conversion to Data object ended in 204.3296411037445s.
+Iteration: 022	Loss: 0.5214	Acc: 0.6463	Validation Acc: 0.6427	Validation Loss: 0.5215	Cumulative # of training samples: 8.80e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch22. Total time for epoch: 608.0653967857361s.
+Sampling ended in 65.77300310134888s. Conversion to Data object ended in 203.4565646648407s.
+Iteration: 023	Loss: 0.5211	Acc: 0.6463	Validation Acc: 0.6430	Validation Loss: 0.5215	Cumulative # of training samples: 9.20e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch23. Total time for epoch: 608.9075558185577s.
+Sampling ended in 65.59924697875977s. Conversion to Data object ended in 203.0025622844696s.
+Iteration: 024	Loss: 0.5210	Acc: 0.6468	Validation Acc: 0.6442	Validation Loss: 0.5216	Cumulative # of training samples: 9.60e+07	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch24. Total time for epoch: 608.4009928703308s.
+Sampling ended in 65.83810329437256s. Conversion to Data object ended in 203.88407969474792s.
+Iteration: 025	Loss: 0.5207	Acc: 0.6472	Validation Acc: 0.6462	Validation Loss: 0.5208	Cumulative # of training samples: 1.00e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch25. Total time for epoch: 606.7811188697815s.
+Sampling ended in 65.72939443588257s. Conversion to Data object ended in 203.30592489242554s.
+Iteration: 026	Loss: 0.5205	Acc: 0.6475	Validation Acc: 0.6439	Validation Loss: 0.5213	Cumulative # of training samples: 1.04e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch26. Total time for epoch: 608.7492346763611s.
+Sampling ended in 65.722900390625s. Conversion to Data object ended in 203.2784607410431s.
+Iteration: 027	Loss: 0.5202	Acc: 0.6479	Validation Acc: 0.6444	Validation Loss: 0.5215	Cumulative # of training samples: 1.08e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch27. Total time for epoch: 606.5366909503937s.
+Sampling ended in 65.60134148597717s. Conversion to Data object ended in 203.67874264717102s.
+Iteration: 028	Loss: 0.5200	Acc: 0.6483	Validation Acc: 0.6452	Validation Loss: 0.5205	Cumulative # of training samples: 1.12e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch28. Total time for epoch: 609.903158903122s.
+Sampling ended in 65.86497926712036s. Conversion to Data object ended in 204.15545463562012s.
+Iteration: 029	Loss: 0.5199	Acc: 0.6478	Validation Acc: 0.6451	Validation Loss: 0.5210	Cumulative # of training samples: 1.16e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch29. Total time for epoch: 608.6733231544495s.
+Sampling ended in 65.83359599113464s. Conversion to Data object ended in 203.35969352722168s.
+Iteration: 030	Loss: 0.5196	Acc: 0.6481	Validation Acc: 0.6470	Validation Loss: 0.5196	Cumulative # of training samples: 1.20e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch30. Total time for epoch: 607.2522130012512s.
+Sampling ended in 65.7987425327301s. Conversion to Data object ended in 203.91458010673523s.
+Iteration: 031	Loss: 0.5194	Acc: 0.6484	Validation Acc: 0.6453	Validation Loss: 0.5206	Cumulative # of training samples: 1.24e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch31. Total time for epoch: 607.7862961292267s.
+Sampling ended in 65.6260757446289s. Conversion to Data object ended in 203.4756269454956s.
+Iteration: 032	Loss: 0.5193	Acc: 0.6487	Validation Acc: 0.6451	Validation Loss: 0.5203	Cumulative # of training samples: 1.28e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch32. Total time for epoch: 608.7994594573975s.
+Sampling ended in 66.00944352149963s. Conversion to Data object ended in 204.5564329624176s.
+Iteration: 033	Loss: 0.5192	Acc: 0.6493	Validation Acc: 0.6469	Validation Loss: 0.5195	Cumulative # of training samples: 1.32e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch33. Total time for epoch: 608.0021066665649s.
+Sampling ended in 65.68645310401917s. Conversion to Data object ended in 203.15738248825073s.
+Iteration: 034	Loss: 0.5191	Acc: 0.6490	Validation Acc: 0.6455	Validation Loss: 0.5200	Cumulative # of training samples: 1.36e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch34. Total time for epoch: 608.8224060535431s.
+Sampling ended in 65.70595908164978s. Conversion to Data object ended in 202.76555156707764s.
+Iteration: 035	Loss: 0.5190	Acc: 0.6490	Validation Acc: 0.6469	Validation Loss: 0.5198	Cumulative # of training samples: 1.40e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch35. Total time for epoch: 607.0806956291199s.
+Sampling ended in 65.78884291648865s. Conversion to Data object ended in 202.5243136882782s.
+Iteration: 036	Loss: 0.5189	Acc: 0.6490	Validation Acc: 0.6455	Validation Loss: 0.5194	Cumulative # of training samples: 1.44e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch36. Total time for epoch: 605.6734011173248s.
+Sampling ended in 65.93962979316711s. Conversion to Data object ended in 202.92220640182495s.
+Iteration: 037	Loss: 0.5188	Acc: 0.6488	Validation Acc: 0.6447	Validation Loss: 0.5199	Cumulative # of training samples: 1.48e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch37. Total time for epoch: 608.5321204662323s.
+Sampling ended in 65.7617769241333s. Conversion to Data object ended in 204.29042053222656s.
+Iteration: 038	Loss: 0.5187	Acc: 0.6495	Validation Acc: 0.6476	Validation Loss: 0.5192	Cumulative # of training samples: 1.52e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch38. Total time for epoch: 608.8208405971527s.
+Sampling ended in 65.84881639480591s. Conversion to Data object ended in 203.23902583122253s.
+Iteration: 039	Loss: 0.5186	Acc: 0.6495	Validation Acc: 0.6473	Validation Loss: 0.5192	Cumulative # of training samples: 1.56e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch39. Total time for epoch: 607.0572788715363s.
+Sampling ended in 65.69421362876892s. Conversion to Data object ended in 203.15136170387268s.
+Iteration: 040	Loss: 0.5184	Acc: 0.6496	Validation Acc: 0.6474	Validation Loss: 0.5190	Cumulative # of training samples: 1.60e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch40. Total time for epoch: 608.1577572822571s.
+Sampling ended in 65.8302845954895s. Conversion to Data object ended in 204.3295350074768s.
+Iteration: 041	Loss: 0.5183	Acc: 0.6501	Validation Acc: 0.6482	Validation Loss: 0.5188	Cumulative # of training samples: 1.64e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch41. Total time for epoch: 609.1989600658417s.
+Sampling ended in 65.85616612434387s. Conversion to Data object ended in 203.2461211681366s.
+Iteration: 042	Loss: 0.5181	Acc: 0.6500	Validation Acc: 0.6457	Validation Loss: 0.5195	Cumulative # of training samples: 1.68e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch42. Total time for epoch: 607.1367304325104s.
+Sampling ended in 65.6138277053833s. Conversion to Data object ended in 202.3792622089386s.
+Iteration: 043	Loss: 0.5182	Acc: 0.6500	Validation Acc: 0.6479	Validation Loss: 0.5192	Cumulative # of training samples: 1.72e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch43. Total time for epoch: 607.5043194293976s.
+Sampling ended in 65.70679974555969s. Conversion to Data object ended in 204.20695066452026s.
+Iteration: 044	Loss: 0.5182	Acc: 0.6502	Validation Acc: 0.6481	Validation Loss: 0.5189	Cumulative # of training samples: 1.76e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch44. Total time for epoch: 609.0003547668457s.
+Sampling ended in 65.9171359539032s. Conversion to Data object ended in 204.55494570732117s.
+Iteration: 045	Loss: 0.5181	Acc: 0.6504	Validation Acc: 0.6486	Validation Loss: 0.5190	Cumulative # of training samples: 1.80e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch45. Total time for epoch: 608.3628988265991s.
+Sampling ended in 65.73236036300659s. Conversion to Data object ended in 202.36220836639404s.
+Iteration: 046	Loss: 0.5181	Acc: 0.6505	Validation Acc: 0.6478	Validation Loss: 0.5187	Cumulative # of training samples: 1.84e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch46. Total time for epoch: 607.8491063117981s.
+Sampling ended in 65.64631056785583s. Conversion to Data object ended in 204.2372694015503s.
+Iteration: 047	Loss: 0.5179	Acc: 0.6503	Validation Acc: 0.6442	Validation Loss: 0.5185	Cumulative # of training samples: 1.88e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch47. Total time for epoch: 607.3572483062744s.
+Sampling ended in 65.9581139087677s. Conversion to Data object ended in 204.120103597641s.
+Iteration: 048	Loss: 0.5178	Acc: 0.6501	Validation Acc: 0.6497	Validation Loss: 0.5184	Cumulative # of training samples: 1.92e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch48. Total time for epoch: 608.7372939586639s.
+Sampling ended in 65.93733191490173s. Conversion to Data object ended in 203.67547464370728s.
+Iteration: 049	Loss: 0.5177	Acc: 0.6504	Validation Acc: 0.6501	Validation Loss: 0.5185	Cumulative # of training samples: 1.96e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch49. Total time for epoch: 607.7327864170074s.
+Sampling ended in 65.78514385223389s. Conversion to Data object ended in 202.70417642593384s.
+Iteration: 050	Loss: 0.5176	Acc: 0.6509	Validation Acc: 0.6457	Validation Loss: 0.5189	Cumulative # of training samples: 2.00e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch50. Total time for epoch: 608.5949456691742s.
+Sampling ended in 65.70393896102905s. Conversion to Data object ended in 203.49378657341003s.
+Iteration: 051	Loss: 0.5176	Acc: 0.6508	Validation Acc: 0.6504	Validation Loss: 0.5181	Cumulative # of training samples: 2.04e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch51. Total time for epoch: 607.6407692432404s.
+Sampling ended in 65.84373497962952s. Conversion to Data object ended in 203.42365217208862s.
+Iteration: 052	Loss: 0.5176	Acc: 0.6512	Validation Acc: 0.6478	Validation Loss: 0.5183	Cumulative # of training samples: 2.08e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch52. Total time for epoch: 607.6610369682312s.
+Sampling ended in 65.94650745391846s. Conversion to Data object ended in 203.203430891037s.
+Iteration: 053	Loss: 0.5176	Acc: 0.6510	Validation Acc: 0.6480	Validation Loss: 0.5183	Cumulative # of training samples: 2.12e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch53. Total time for epoch: 608.9906103610992s.
+Sampling ended in 65.76943778991699s. Conversion to Data object ended in 204.41639804840088s.
+Iteration: 054	Loss: 0.5176	Acc: 0.6508	Validation Acc: 0.6479	Validation Loss: 0.5189	Cumulative # of training samples: 2.16e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch54. Total time for epoch: 609.952216386795s.
+Sampling ended in 65.84608578681946s. Conversion to Data object ended in 204.46842002868652s.
+Iteration: 055	Loss: 0.5175	Acc: 0.6512	Validation Acc: 0.6481	Validation Loss: 0.5180	Cumulative # of training samples: 2.20e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch55. Total time for epoch: 609.2576549053192s.
+Sampling ended in 65.93700909614563s. Conversion to Data object ended in 204.35635352134705s.
+Iteration: 056	Loss: 0.5174	Acc: 0.6514	Validation Acc: 0.6490	Validation Loss: 0.5181	Cumulative # of training samples: 2.24e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch56. Total time for epoch: 610.5781698226929s.
+Sampling ended in 65.96830129623413s. Conversion to Data object ended in 203.4783809185028s.
+Iteration: 057	Loss: 0.5174	Acc: 0.6509	Validation Acc: 0.6472	Validation Loss: 0.5187	Cumulative # of training samples: 2.28e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch57. Total time for epoch: 607.632595539093s.
+Sampling ended in 65.77341198921204s. Conversion to Data object ended in 202.32344579696655s.
+Iteration: 058	Loss: 0.5172	Acc: 0.6514	Validation Acc: 0.6468	Validation Loss: 0.5185	Cumulative # of training samples: 2.32e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch58. Total time for epoch: 608.7781894207001s.
+Sampling ended in 65.59475064277649s. Conversion to Data object ended in 202.40622878074646s.
+Iteration: 059	Loss: 0.5172	Acc: 0.6511	Validation Acc: 0.6499	Validation Loss: 0.5184	Cumulative # of training samples: 2.36e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch59. Total time for epoch: 605.9132978916168s.
+Sampling ended in 65.83566093444824s. Conversion to Data object ended in 204.12836265563965s.
+Iteration: 060	Loss: 0.5171	Acc: 0.6513	Validation Acc: 0.6490	Validation Loss: 0.5180	Cumulative # of training samples: 2.40e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch60. Total time for epoch: 608.4277260303497s.
+Sampling ended in 65.88519978523254s. Conversion to Data object ended in 203.08559799194336s.
+Iteration: 061	Loss: 0.5171	Acc: 0.6515	Validation Acc: 0.6473	Validation Loss: 0.5179	Cumulative # of training samples: 2.44e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch61. Total time for epoch: 607.8942465782166s.
+Sampling ended in 65.69438624382019s. Conversion to Data object ended in 204.5047323703766s.
+Iteration: 062	Loss: 0.5172	Acc: 0.6516	Validation Acc: 0.6488	Validation Loss: 0.5178	Cumulative # of training samples: 2.48e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch62. Total time for epoch: 608.6524248123169s.
+Sampling ended in 65.77790665626526s. Conversion to Data object ended in 203.95395588874817s.
+Iteration: 063	Loss: 0.5172	Acc: 0.6517	Validation Acc: 0.6494	Validation Loss: 0.5181	Cumulative # of training samples: 2.52e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch63. Total time for epoch: 610.1415736675262s.
+Sampling ended in 65.70400810241699s. Conversion to Data object ended in 202.97562432289124s.
+Iteration: 064	Loss: 0.5171	Acc: 0.6517	Validation Acc: 0.6449	Validation Loss: 0.5188	Cumulative # of training samples: 2.56e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch64. Total time for epoch: 607.2651047706604s.
+Sampling ended in 65.77837204933167s. Conversion to Data object ended in 203.0120885372162s.
+Iteration: 065	Loss: 0.5171	Acc: 0.6517	Validation Acc: 0.6487	Validation Loss: 0.5177	Cumulative # of training samples: 2.60e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch65. Total time for epoch: 606.7772688865662s.
+Sampling ended in 65.8658013343811s. Conversion to Data object ended in 204.55427598953247s.
+Iteration: 066	Loss: 0.5170	Acc: 0.6519	Validation Acc: 0.6503	Validation Loss: 0.5176	Cumulative # of training samples: 2.64e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch66. Total time for epoch: 611.1245231628418s.
+Sampling ended in 65.73094391822815s. Conversion to Data object ended in 202.8978476524353s.
+Iteration: 067	Loss: 0.5168	Acc: 0.6523	Validation Acc: 0.6509	Validation Loss: 0.5175	Cumulative # of training samples: 2.68e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch67. Total time for epoch: 607.169112443924s.
+Sampling ended in 65.71605110168457s. Conversion to Data object ended in 202.69961762428284s.
+Iteration: 068	Loss: 0.5170	Acc: 0.6520	Validation Acc: 0.6494	Validation Loss: 0.5184	Cumulative # of training samples: 2.72e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch68. Total time for epoch: 606.086186170578s.
+Sampling ended in 65.8692843914032s. Conversion to Data object ended in 202.9502022266388s.
+Iteration: 069	Loss: 0.5169	Acc: 0.6518	Validation Acc: 0.6488	Validation Loss: 0.5178	Cumulative # of training samples: 2.76e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch69. Total time for epoch: 608.5360281467438s.
+Sampling ended in 65.74073123931885s. Conversion to Data object ended in 203.45631504058838s.
+Iteration: 070	Loss: 0.5168	Acc: 0.6520	Validation Acc: 0.6486	Validation Loss: 0.5180	Cumulative # of training samples: 2.80e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch70. Total time for epoch: 607.2326374053955s.
+Sampling ended in 65.80606126785278s. Conversion to Data object ended in 202.67282271385193s.
+Iteration: 071	Loss: 0.5168	Acc: 0.6519	Validation Acc: 0.6482	Validation Loss: 0.5183	Cumulative # of training samples: 2.84e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch71. Total time for epoch: 606.141744852066s.
+Sampling ended in 65.71923232078552s. Conversion to Data object ended in 201.5948667526245s.
+Iteration: 072	Loss: 0.5167	Acc: 0.6519	Validation Acc: 0.6485	Validation Loss: 0.5174	Cumulative # of training samples: 2.88e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch72. Total time for epoch: 606.7721147537231s.
+Sampling ended in 66.01795649528503s. Conversion to Data object ended in 204.72565531730652s.
+Iteration: 073	Loss: 0.5166	Acc: 0.6519	Validation Acc: 0.6496	Validation Loss: 0.5172	Cumulative # of training samples: 2.92e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch73. Total time for epoch: 608.7288501262665s.
+Sampling ended in 65.74717426300049s. Conversion to Data object ended in 203.32904624938965s.
+Iteration: 074	Loss: 0.5167	Acc: 0.6520	Validation Acc: 0.6488	Validation Loss: 0.5174	Cumulative # of training samples: 2.96e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch74. Total time for epoch: 604.6092615127563s.
+Sampling ended in 65.64150285720825s. Conversion to Data object ended in 202.37324404716492s.
+Iteration: 075	Loss: 0.5166	Acc: 0.6522	Validation Acc: 0.6469	Validation Loss: 0.5179	Cumulative # of training samples: 3.00e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch75. Total time for epoch: 607.4826416969299s.
+Sampling ended in 65.65803790092468s. Conversion to Data object ended in 204.05666875839233s.
+Iteration: 076	Loss: 0.5166	Acc: 0.6520	Validation Acc: 0.6465	Validation Loss: 0.5183	Cumulative # of training samples: 3.04e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch76. Total time for epoch: 608.5681746006012s.
+Sampling ended in 66.05545043945312s. Conversion to Data object ended in 203.899160861969s.
+Iteration: 077	Loss: 0.5166	Acc: 0.6520	Validation Acc: 0.6481	Validation Loss: 0.5176	Cumulative # of training samples: 3.08e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch77. Total time for epoch: 607.8393933773041s.
+Sampling ended in 65.7553186416626s. Conversion to Data object ended in 204.44417667388916s.
+Iteration: 078	Loss: 0.5166	Acc: 0.6519	Validation Acc: 0.6493	Validation Loss: 0.5178	Cumulative # of training samples: 3.12e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch78. Total time for epoch: 610.396532535553s.
+Sampling ended in 65.57295966148376s. Conversion to Data object ended in 203.42476081848145s.
+Iteration: 079	Loss: 0.5165	Acc: 0.6523	Validation Acc: 0.6491	Validation Loss: 0.5172	Cumulative # of training samples: 3.16e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch79. Total time for epoch: 605.814245223999s.
+Sampling ended in 65.96576142311096s. Conversion to Data object ended in 203.74534797668457s.
+Iteration: 080	Loss: 0.5166	Acc: 0.6520	Validation Acc: 0.6489	Validation Loss: 0.5173	Cumulative # of training samples: 3.20e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch80. Total time for epoch: 607.6580355167389s.
+Sampling ended in 65.85331606864929s. Conversion to Data object ended in 203.59963631629944s.
+Iteration: 081	Loss: 0.5164	Acc: 0.6521	Validation Acc: 0.6491	Validation Loss: 0.5171	Cumulative # of training samples: 3.24e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch81. Total time for epoch: 608.8974392414093s.
+Sampling ended in 65.78072500228882s. Conversion to Data object ended in 204.50401878356934s.
+Iteration: 082	Loss: 0.5163	Acc: 0.6522	Validation Acc: 0.6501	Validation Loss: 0.5171	Cumulative # of training samples: 3.28e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch82. Total time for epoch: 608.6821513175964s.
+Sampling ended in 65.8605387210846s. Conversion to Data object ended in 203.57571649551392s.
+Iteration: 083	Loss: 0.5164	Acc: 0.6525	Validation Acc: 0.6482	Validation Loss: 0.5175	Cumulative # of training samples: 3.32e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch83. Total time for epoch: 607.4075908660889s.
+Sampling ended in 65.70144629478455s. Conversion to Data object ended in 202.42335176467896s.
+Iteration: 084	Loss: 0.5164	Acc: 0.6524	Validation Acc: 0.6468	Validation Loss: 0.5189	Cumulative # of training samples: 3.36e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch84. Total time for epoch: 608.2086591720581s.
+Sampling ended in 65.7917013168335s. Conversion to Data object ended in 203.2955060005188s.
+Iteration: 085	Loss: 0.5165	Acc: 0.6524	Validation Acc: 0.6492	Validation Loss: 0.5175	Cumulative # of training samples: 3.40e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch85. Total time for epoch: 606.6683619022369s.
+Sampling ended in 65.66714930534363s. Conversion to Data object ended in 202.9994387626648s.
+Iteration: 086	Loss: 0.5165	Acc: 0.6521	Validation Acc: 0.6458	Validation Loss: 0.5170	Cumulative # of training samples: 3.44e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch86. Total time for epoch: 606.9876432418823s.
+Sampling ended in 65.66135573387146s. Conversion to Data object ended in 202.49853324890137s.
+Iteration: 087	Loss: 0.5164	Acc: 0.6523	Validation Acc: 0.6486	Validation Loss: 0.5175	Cumulative # of training samples: 3.48e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch87. Total time for epoch: 607.8460249900818s.
+Sampling ended in 65.7094874382019s. Conversion to Data object ended in 204.15208458900452s.
+Iteration: 088	Loss: 0.5165	Acc: 0.6524	Validation Acc: 0.6513	Validation Loss: 0.5171	Cumulative # of training samples: 3.52e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch88. Total time for epoch: 609.3464195728302s.
+Sampling ended in 66.004891872406s. Conversion to Data object ended in 204.98372721672058s.
+Iteration: 089	Loss: 0.5164	Acc: 0.6521	Validation Acc: 0.6497	Validation Loss: 0.5176	Cumulative # of training samples: 3.56e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch89. Total time for epoch: 608.4664056301117s.
+Sampling ended in 65.80217456817627s. Conversion to Data object ended in 203.200297832489s.
+Iteration: 090	Loss: 0.5164	Acc: 0.6524	Validation Acc: 0.6483	Validation Loss: 0.5178	Cumulative # of training samples: 3.60e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch90. Total time for epoch: 608.3577980995178s.
+Sampling ended in 65.57102179527283s. Conversion to Data object ended in 202.83419680595398s.
+Iteration: 091	Loss: 0.5164	Acc: 0.6522	Validation Acc: 0.6502	Validation Loss: 0.5176	Cumulative # of training samples: 3.64e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch91. Total time for epoch: 606.8207013607025s.
+Sampling ended in 65.83324813842773s. Conversion to Data object ended in 203.18275427818298s.
+Iteration: 092	Loss: 0.5163	Acc: 0.6523	Validation Acc: 0.6502	Validation Loss: 0.5175	Cumulative # of training samples: 3.68e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch92. Total time for epoch: 607.7743737697601s.
+Sampling ended in 65.79545831680298s. Conversion to Data object ended in 203.8267662525177s.
+Iteration: 093	Loss: 0.5162	Acc: 0.6523	Validation Acc: 0.6496	Validation Loss: 0.5175	Cumulative # of training samples: 3.72e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch93. Total time for epoch: 609.344634771347s.
+Sampling ended in 65.67272424697876s. Conversion to Data object ended in 204.1225152015686s.
+Iteration: 094	Loss: 0.5161	Acc: 0.6526	Validation Acc: 0.6479	Validation Loss: 0.5177	Cumulative # of training samples: 3.76e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch94. Total time for epoch: 608.22656083107s.
+Sampling ended in 65.892893075943s. Conversion to Data object ended in 203.43521809577942s.
+Iteration: 095	Loss: 0.5160	Acc: 0.6527	Validation Acc: 0.6517	Validation Loss: 0.5171	Cumulative # of training samples: 3.80e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch95. Total time for epoch: 607.5319414138794s.
+Sampling ended in 65.69073033332825s. Conversion to Data object ended in 201.73881244659424s.
+Iteration: 096	Loss: 0.5161	Acc: 0.6528	Validation Acc: 0.6490	Validation Loss: 0.5172	Cumulative # of training samples: 3.84e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch96. Total time for epoch: 607.064647436142s.
+Sampling ended in 65.81684827804565s. Conversion to Data object ended in 204.32731199264526s.
+Iteration: 097	Loss: 0.5160	Acc: 0.6527	Validation Acc: 0.6510	Validation Loss: 0.5178	Cumulative # of training samples: 3.88e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch97. Total time for epoch: 608.7025747299194s.
+Sampling ended in 65.76149582862854s. Conversion to Data object ended in 204.8112609386444s.
+Iteration: 098	Loss: 0.5161	Acc: 0.6525	Validation Acc: 0.6488	Validation Loss: 0.5176	Cumulative # of training samples: 3.92e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch98. Total time for epoch: 610.7610538005829s.
+Sampling ended in 65.74887371063232s. Conversion to Data object ended in 202.8423421382904s.
+Iteration: 099	Loss: 0.5162	Acc: 0.6524	Validation Acc: 0.6517	Validation Loss: 0.5170	Cumulative # of training samples: 3.96e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch99. Total time for epoch: 608.1794881820679s.
+Sampling ended in 65.81915855407715s. Conversion to Data object ended in 202.1434576511383s.
+Iteration: 100	Loss: 0.5162	Acc: 0.6527	Validation Acc: 0.6507	Validation Loss: 0.5173	Cumulative # of training samples: 4.00e+08	. Saving model... Model successfully saved in d7_d_t_1_rep_epoch100. Total time for epoch: 607.8158555030823s.
+Completed all training iterations!
+Saving final model, history and data to file.
+
+==== BENCHMARKING ====
+Training setup: 0.0037801319849677384
+Sampling and Graphing: 30440.573170351214
+Fitting: 32187.968116856762
+	Sum: 62628.54506733996
+
+
+=== Training completely ended. ===

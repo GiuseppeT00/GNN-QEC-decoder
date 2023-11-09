@@ -1,0 +1,12 @@
+=== code_size=5 repetitions=3 ===
+Generation ended in 104.1642758846283s.
+Conversion to Data object ended in 7.62939453125e-06s.
+Saved in 679.7604160308838s.
+=== code_size=5 repetitions=5 ===
+Generation ended in 156.57290840148926s.
+Conversion to Data object ended in 5.0067901611328125e-06s.
+Saved in 1120.4552187919617s.
+=== code_size=5 repetitions=7 ===
+Generation ended in 198.11546349525452s.
+slurmstepd: error: *** JOB 2025721 ON wn23 CANCELLED AT 2023-09-22T15:14:34 ***
+slurmstepd: error: Detected 197662 oom-kill event(s) in step 2025721.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
